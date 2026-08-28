@@ -43,7 +43,8 @@ def ask(request: QuestionRequest):
         return {
             "question": result["question"],
             "answer": result["answer"],
-            "sources": result["sources"]
+            "sources": result["sources"],
+            "retrieved_chunks": result["retrieved_chunks"]
         }
 
     except Exception:
