@@ -43,17 +43,11 @@ def ask(request: QuestionRequest):
         return {
             "question": result["question"],
             "answer": result["answer"],
-            "sources": [
-                chunk["filename"]
-                for chunk in [
-                    result["context"]
-                ]
-            ]
+            "sources": result["sources"]
         }
 
-    except Exception as e:
-
+    except Exception:
         raise HTTPException(
             status_code=500,
-            detail=str(e)
+            detail="An error occurred while processing the question."
         )
