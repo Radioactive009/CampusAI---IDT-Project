@@ -1,0 +1,44 @@
+ABC UNIVERSITY
+ACADEMIC REGULATIONS
+
+1. Academic Credits
+
+Each course carries a specified number of academic credits. Credits represent the academic workload associated with a course.
+
+2. Grading System
+
+ABC University uses letter grades to represent academic performance.
+
+The grades are:
+
+A+ : Outstanding
+A  : Excellent
+B+ : Very Good
+B  : Good
+C  : Satisfactory
+D  : Pass
+F  : Fail
+
+3. Grade Points
+
+Each letter grade is associated with a grade point. Grade points are used when calculating the student's semester grade point average and cumulative grade point average.
+
+4. SGPA
+
+Semester Grade Point Average (SGPA) represents the weighted academic performance of a student during a particular semester.
+
+SGPA is calculated using the grade points and credits of courses completed during that semester.
+
+5. CGPA
+
+Cumulative Grade Point Average (CGPA) represents the student's cumulative academic performance across completed semesters.
+
+CGPA is calculated using the grade points and credits accumulated across the applicable semesters.
+
+6. Course Failure
+
+A student receiving an F grade in a course is considered to have failed that course and may need to clear the course through a supplementary examination or other university-approved process.
+
+7. Academic Progression
+
+Students must satisfy the university's academic progression requirements to continue to the next academic level.
