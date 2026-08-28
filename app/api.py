@@ -1,14 +1,13 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-import requests
 
-from services.llm_service import generate_response
+from services.rag_service import generate_rag_response
 
 
 app = FastAPI(
     title="CampusAI",
     description="University Knowledge Assistant",
-    version="1.0.0"
+    version="2.0.0"
 )
 
 
@@ -19,7 +18,9 @@ class QuestionRequest(BaseModel):
 @app.get("/")
 def home():
     return {
-        "message": "Welcome to CampusAI"
+        "message": "Welcome to CampusAI",
+        "version": "2.0.0",
+        "mode": "RAG"
     }
 
 
@@ -33,21 +34,26 @@ def ask(request: QuestionRequest):
         )
 
     try:
-        answer = generate_response(request.question)
 
-        return {
-            "question": request.question,
-            "answer": answer
-        }
-
-    except requests.RequestException:
-        raise HTTPException(
-            status_code=503,
-            detail="Ollama service is unavailable."
+        result = generate_rag_response(
+            request.question,
+            top_k=3
         )
 
-    except Exception:
+        return {
+            "question": result["question"],
+            "answer": result["answer"],
+            "sources": [
+                chunk["filename"]
+                for chunk in [
+                    result["context"]
+                ]
+            ]
+        }
+
+    except Exception as e:
+
         raise HTTPException(
             status_code=500,
-            detail="An unexpected error occurred."
+            detail=str(e)
         )
