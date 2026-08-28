@@ -10,6 +10,7 @@ def generate_rag_response(question: str, top_k: int = 3):
     )
 
     context_parts = []
+    sources = []
 
     for result in results:
 
@@ -19,6 +20,9 @@ def generate_rag_response(question: str, top_k: int = 3):
             f"Source: {chunk['filename']}\n"
             f"{chunk['text']}"
         )
+
+        if chunk["filename"] not in sources:
+            sources.append(chunk["filename"])
 
     context = "\n\n".join(context_parts)
 
@@ -49,5 +53,6 @@ Answer:
     return {
         "question": question,
         "answer": answer,
-        "context": context
+        "context": context,
+        "sources": sources
     }
