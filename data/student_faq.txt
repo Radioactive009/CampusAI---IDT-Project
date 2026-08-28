@@ -1,0 +1,42 @@
+ABC UNIVERSITY
+STUDENT FREQUENTLY ASKED QUESTIONS
+
+Q1. What is CampusAI?
+
+CampusAI is a university knowledge assistant designed to help students find information about university policies, academic regulations, examinations, placements, hostels, and other institutional information.
+
+Q2. What attendance is required for semester-end examinations?
+
+Students normally need at least 75% attendance in each registered course to be eligible for the semester-end examination.
+
+Q3. Can a student with 68% attendance apply for condonation?
+
+Students with attendance between 65% and 74% may apply for attendance condonation, subject to approval and applicable university rules.
+
+Q4. Can a student with 60% attendance receive attendance condonation?
+
+Students with attendance below 65% are not eligible for attendance condonation.
+
+Q5. Can students apply for examination revaluation?
+
+Students may apply for revaluation of eligible theory examination papers within the specified application period.
+
+Q6. What happens if a student fails a course?
+
+A student receiving an F grade may need to clear the course through a supplementary examination or another university-approved process.
+
+Q7. How is CGPA calculated?
+
+CGPA represents cumulative academic performance and is calculated using grade points and credits accumulated across the applicable semesters.
+
+Q8. What is the hostel entry deadline?
+
+The standard hostel entry deadline is 10:00 PM on regular days unless otherwise notified.
+
+Q9. How do students register for campus placements?
+
+Students interested in campus placements must register with the university placement cell during the announced registration period.
+
+Q10. Are placement eligibility criteria the same for every company?
+
+No. Eligibility requirements may vary by recruiting company. Students should check the criteria specified for each recruitment opportunity.
