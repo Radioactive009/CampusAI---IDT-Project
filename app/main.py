@@ -1,15 +1,25 @@
 import requests
 
-url = "http://localhost:11434/api/generate"
 
-data = {
-    "model": "codellama",
-    "prompt": "What is a university?",
-    "stream": False
-}
+def ask_llm(question):
+    url = "http://localhost:11434/api/generate"
 
-response = requests.post(url, json=data)
+    data = {
+        "model": "codellama",
+        "prompt": question,
+        "stream": False
+    }
 
-result = response.json()
+    response = requests.post(url, json=data)
 
-print(result["response"])
+    result = response.json()
+
+    return result["response"]
+
+
+question = input("Ask CampusAI a question: ")
+
+answer = ask_llm(question)
+
+print("\nCampusAI:")
+print(answer)
