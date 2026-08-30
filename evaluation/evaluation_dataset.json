@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "category": "attendance",
+    "question": "What is the minimum attendance required to appear for the semester-end examination?"
+  },
+  {
+    "id": 2,
+    "category": "attendance",
+    "question": "Can a student with 68% attendance apply for attendance condonation?"
+  },
+  {
+    "id": 3,
+    "category": "attendance",
+    "question": "Can a student with 60% attendance receive attendance condonation?"
+  },
+  {
+    "id": 4,
+    "category": "attendance",
+    "question": "Can medical leave affect the attendance requirement?"
+  },
+  {
+    "id": 5,
+    "category": "attendance",
+    "question": "Who approves attendance condonation applications?"
+  },
+
+  {
+    "id": 6,
+    "category": "examination",
+    "question": "Can students apply for examination revaluation?"
+  },
+  {
+    "id": 7,
+    "category": "examination",
+    "question": "What happens if a student fails a course?"
+  },
+  {
+    "id": 8,
+    "category": "examination",
+    "question": "What are the eligibility requirements for semester-end examinations?"
+  },
+  {
+    "id": 9,
+    "category": "examination",
+    "question": "When can a student apply for examination revaluation?"
+  },
+
+  {
+    "id": 10,
+    "category": "hostel",
+    "question": "What are the hostel entry timings?"
+  },
+  {
+    "id": 11,
+    "category": "hostel",
+    "question": "What should a student do if they need to enter the hostel after the allowed entry time?"
+  },
+  {
+    "id": 12,
+    "category": "hostel",
+    "question": "Are visitors allowed inside the university hostel?"
+  },
+  {
+    "id": 13,
+    "category": "hostel",
+    "question": "What are the rules for hostel leave?"
+  },
+
+  {
+    "id": 14,
+    "category": "placement",
+    "question": "Who is eligible to participate in campus placement activities?"
+  },
+  {
+    "id": 15,
+    "category": "placement",
+    "question": "Can students with an active backlog participate in placements?"
+  },
+  {
+    "id": 16,
+    "category": "placement",
+    "question": "What documents are required for placement registration?"
+  },
+  {
+    "id": 17,
+    "category": "placement",
+    "question": "Can a student apply for multiple placement opportunities?"
+  },
+
+  {
+    "id": 18,
+    "category": "academic",
+    "question": "How is CGPA calculated?"
+  },
+  {
+    "id": 19,
+    "category": "academic",
+    "question": "What does an F grade mean?"
+  },
+  {
+    "id": 20,
+    "category": "academic",
+    "question": "How are grade points related to credits?"
+  },
+  {
+    "id": 21,
+    "category": "academic",
+    "question": "What should a student do after failing a course?"
+  },
+
+  {
+    "id": 22,
+    "category": "general",
+    "question": "What is CampusAI?"
+  },
+  {
+    "id": 23,
+    "category": "general",
+    "question": "What types of university information can CampusAI provide?"
+  },
+  {
+    "id": 24,
+    "category": "general",
+    "question": "What should CampusAI do when information is not available in the knowledge base?"
+  },
+  {
+    "id": 25,
+    "category": "general",
+    "question": "Why does CampusAI use a university knowledge base?"
+  }
+]

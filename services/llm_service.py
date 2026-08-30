@@ -2,13 +2,12 @@ import requests
 
 
 OLLAMA_URL = "http://host.docker.internal:11434/api/generate"
-MODEL_NAME = "codellama"
 
 
-def generate_response(question: str) -> str:
+def generate_response(question: str, model: str = "codellama") -> str:
 
     data = {
-        "model": MODEL_NAME,
+        "model": model,
         "prompt": question,
         "stream": False
     }

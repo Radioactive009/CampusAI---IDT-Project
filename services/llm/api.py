@@ -6,13 +6,14 @@ from services.llm_service import generate_response
 
 app = FastAPI(
     title="CampusAI LLM Service",
-    description="Service responsible for communicating with Ollama and Code Llama",
-    version="1.0.0"
+    description="Service responsible for communicating with Ollama and local LLM models",
+    version="2.0.0"
 )
 
 
 class LLMRequest(BaseModel):
     prompt: str
+    model: str = "codellama"
 
 
 @app.get("/")
@@ -21,7 +22,7 @@ def home():
     return {
         "service": "LLM Service",
         "status": "running",
-        "model": "codellama"
+        "default_model": "codellama"
     }
 
 
@@ -38,11 +39,13 @@ def generate(request: LLMRequest):
     try:
 
         answer = generate_response(
-            request.prompt
+            request.prompt,
+            request.model
         )
 
         return {
-            "response": answer
+            "response": answer,
+            "model": request.model
         }
 
     except Exception:
@@ -52,8 +55,10 @@ def generate(request: LLMRequest):
             detail="LLM service could not generate a response."
         )
 
+
 @app.get("/health")
 def health():
+
     return {
         "service": "LLM Service",
         "status": "healthy"
