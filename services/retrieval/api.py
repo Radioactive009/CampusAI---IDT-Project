@@ -51,3 +51,10 @@ def retrieve(request: RetrievalRequest):
             status_code=500,
             detail="Retrieval failed."
         )
+
+@app.get("/health")
+def health():
+    return {
+        "service": "Retrieval Service",
+        "status": "healthy"
+    }

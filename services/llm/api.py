@@ -51,3 +51,10 @@ def generate(request: LLMRequest):
             status_code=503,
             detail="LLM service could not generate a response."
         )
+
+@app.get("/health")
+def health():
+    return {
+        "service": "LLM Service",
+        "status": "healthy"
+    }

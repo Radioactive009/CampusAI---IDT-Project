@@ -80,3 +80,10 @@ def test_llm_service(request: QuestionRequest):
             status_code=503,
             detail="LLM Service is unavailable."
         )
+
+@app.get("/health")
+def health():
+    return {
+        "service": "Application Service",
+        "status": "healthy"
+    }
