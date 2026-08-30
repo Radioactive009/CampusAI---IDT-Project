@@ -1,0 +1,28 @@
+services:
+
+  application-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: campusai-application
+    ports:
+      - "8000:8000"
+    depends_on:
+      - retrieval-service
+      - llm-service
+
+  retrieval-service:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.retrieval
+    container_name: campusai-retrieval
+    ports:
+      - "8002:8002"
+
+  llm-service:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.llm
+    container_name: campusai-llm
+    ports:
+      - "8001:8001"
