@@ -1,13 +1,14 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
-from services.rag_service import generate_rag_response
+from services.orchestrator_service import process_question
+from services.llm_client import generate_with_llm_service
 
 
 app = FastAPI(
     title="CampusAI",
     description="University Knowledge Assistant",
-    version="2.0.0"
+    version="3.0.0"
 )
 
 
@@ -17,10 +18,11 @@ class QuestionRequest(BaseModel):
 
 @app.get("/")
 def home():
+
     return {
         "message": "Welcome to CampusAI",
-        "version": "2.0.0",
-        "mode": "RAG"
+        "version": "3.0.0",
+        "architecture": "Application → Retrieval → LLM"
     }
 
 
@@ -28,6 +30,7 @@ def home():
 def ask(request: QuestionRequest):
 
     if not request.question.strip():
+
         raise HTTPException(
             status_code=400,
             detail="Question cannot be empty."
@@ -35,20 +38,45 @@ def ask(request: QuestionRequest):
 
     try:
 
-        result = generate_rag_response(
+        result = process_question(
             request.question,
             top_k=3
         )
 
+        return result
+
+    except Exception:
+
+        raise HTTPException(
+            status_code=503,
+            detail="Unable to process request."
+        )
+
+
+@app.post("/test-llm-service")
+def test_llm_service(request: QuestionRequest):
+
+    if not request.question.strip():
+
+        raise HTTPException(
+            status_code=400,
+            detail="Question cannot be empty."
+        )
+
+    try:
+
+        answer = generate_with_llm_service(
+            request.question
+        )
+
         return {
-            "question": result["question"],
-            "answer": result["answer"],
-            "sources": result["sources"],
-            "retrieved_chunks": result["retrieved_chunks"]
+            "question": request.question,
+            "answer": answer
         }
 
     except Exception:
+
         raise HTTPException(
-            status_code=500,
-            detail="An error occurred while processing the question."
+            status_code=503,
+            detail="LLM Service is unavailable."
         )
