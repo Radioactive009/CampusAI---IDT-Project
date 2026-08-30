@@ -1,7 +1,7 @@
 import requests
 
 
-LLM_SERVICE_URL = "http://127.0.0.1:8001/generate"
+LLM_SERVICE_URL = "http://llm-service:8001/generate"
 
 
 def generate_with_llm_service(prompt: str) -> str:

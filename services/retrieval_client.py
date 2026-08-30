@@ -1,7 +1,7 @@
 import requests
 
 
-RETRIEVAL_SERVICE_URL = "http://127.0.0.1:8002/retrieve"
+RETRIEVAL_SERVICE_URL = "http://retrieval-service:8002/retrieve"
 
 
 def retrieve_from_service(
