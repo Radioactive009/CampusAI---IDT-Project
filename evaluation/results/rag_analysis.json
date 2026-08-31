@@ -1,0 +1,364 @@
+{
+  "summary": {
+    "total_questions": 25,
+    "relevant_retrievals": 24,
+    "partially_relevant_retrievals": 1,
+    "poor_retrievals": 0,
+    "retrieval_relevance_percent": 96.0
+  },
+  "questions": [
+    {
+      "id": 1,
+      "category": "attendance",
+      "question": "What is the minimum attendance required to appear for the semester-end examination?",
+      "sources": [
+        "attendance_policy.txt",
+        "examination_rules.txt",
+        "student_faq.txt"
+      ],
+      "retrieved_chunks_count": 3,
+      "context_coverage_percent": 100.0,
+      "retrieval_quality": "relevant",
+      "answer": "The minimum attendance requirement for ABC University's semester-end examinations is 75%. Students must maintain a minimum attendance of 75% in each registered course to be eligible to appear for the examination.",
+      "expected_answer": "Students must maintain a minimum attendance of 75% in each registered course to be eligible to appear for the semester-end examination."
+    },
+    {
+      "id": 2,
+      "category": "attendance",
+      "question": "Can a student with 68% attendance apply for attendance condonation?",
+      "sources": [
+        "student_faq.txt",
+        "attendance_policy.txt"
+      ],
+      "retrieved_chunks_count": 3,
+      "context_coverage_percent": 100.0,
+      "retrieval_quality": "relevant",
+      "answer": "\nThe answer is Yes. A student with 68% attendance can apply for attendance condonation, subject to approval and applicable university rules. This is mentioned in the University Context provided earlier.",
+      "expected_answer": "Yes. Students whose attendance is between 65% and 74% may apply for attendance condonation, subject to approval by the academic department and applicable university rules."
+    },
+    {
+      "id": 3,
+      "category": "attendance",
+      "question": "Can a student with 60% attendance receive attendance condonation?",
+      "sources": [
+        "student_faq.txt",
+        "attendance_policy.txt"
+      ],
+      "retrieved_chunks_count": 3,
+      "context_coverage_percent": 100.0,
+      "retrieval_quality": "relevant",
+      "answer": "Certainly! I'll do my best to provide an accurate and helpful answer based on the information provided.\n\nAccording to the University Context, students with attendance below 65% are not eligible for attendance condonation. Therefore, a student with 60% attendance is not eligible for attendance condonation. However, it's important to note that the university's attendance policy may vary depending on the specific circumstances of each student. It's always best to consult with the university's academic department or student services team for more information about attendance requirements and conditions.",
+      "expected_answer": "No. Students with attendance below 65% are not eligible for attendance condonation."
+    },
+    {
+      "id": 4,
+      "category": "attendance",
+      "question": "Can medical leave affect the attendance requirement?",
+      "sources": [
+        "attendance_policy.txt",
+        "student_faq.txt"
+      ],
+      "retrieved_chunks_count": 3,
+      "context_coverage_percent": 100.0,
+      "retrieval_quality": "relevant",
+      "answer": "Attendance policy is provided in the attendance_policy.txt file of ABC University. In that file, it states that students with valid medical documentation may be considered for medical leave. Students who are concerned about their attendance record and believe they have a valid medical condition should contact their academic department and faculty member to discuss their situation and possible accommodations that may be available to them.",
+      "expected_answer": "Medical leave may be considered when supported by valid medical documentation."
+    },
+    {
+      "id": 5,
+      "category": "attendance",
+      "question": "Who approves attendance condonation applications?",
+      "sources": [
+        "student_faq.txt",
+        "attendance_policy.txt"
+      ],
+      "retrieved_chunks_count": 3,
+      "context_coverage_percent": 100.0,
+      "retrieval_quality": "relevant",
+      "answer": "Attendance condonation applications are approved by the academic department, and applicable university rules.",
+      "expected_answer": "Attendance condonation is subject to approval by the academic department and applicable university rules."
+    },
+    {
+      "id": 6,
+      "category": "examination",
+      "question": "Can students apply for examination revaluation?",
+      "sources": [
+        "examination_rules.txt",
+        "student_faq.txt"
+      ],
+      "retrieved_chunks_count": 3,
+      "context_coverage_percent": 100.0,
+      "retrieval_quality": "relevant",
+      "answer": "According to the provided context, students may apply for revaluation of eligible theory examination papers within the specified application period. The information is available in the university knowledge base and is not invented by CampusAI.",
+      "expected_answer": "Yes. Students may apply for revaluation of eligible theory examination papers within the specified application period."
+    },
+    {
+      "id": 7,
+      "category": "examination",
+      "question": "What happens if a student fails a course?",
+      "sources": [
+        "academic_regulations.txt",
+        "examination_rules.txt",
+        "student_faq.txt"
+      ],
+      "retrieved_chunks_count": 3,
+      "context_coverage_percent": 100.0,
+      "retrieval_quality": "relevant",
+      "answer": "A student who fails a course may need to retake the course, or they may be eligible for an examination revaluation. Failing a course is considered to have failed that course and students must meet the university's academic progression requirements to continue to the next academic level.",
+      "expected_answer": "A student receiving an F grade may need to clear the course through a supplementary examination or another university-approved process."
+    },
+    {
+      "id": 8,
+      "category": "examination",
+      "question": "What are the eligibility requirements for semester-end examinations?",
+      "sources": [
+        "examination_rules.txt",
+        "student_faq.txt"
+      ],
+      "retrieved_chunks_count": 3,
+      "context_coverage_percent": 90.0,
+      "retrieval_quality": "relevant",
+      "answer": "\nThe eligibility requirements for semester-end examinations at ABC University are as follows:\n* A student must satisfy the minimum attendance requirement and complete all required academic formalities to be eligible for the semester-end examination. \n* The eligibility criteria vary depending on the course, but normally, a student needs at least 75% attendance in each registered course to be eligible for the semester-end examination.",
+      "expected_answer": "Students must normally maintain at least 75% attendance in each registered course to be eligible for the semester-end examination."
+    },
+    {
+      "id": 9,
+      "category": "examination",
+      "question": "When can a student apply for examination revaluation?",
+      "sources": [
+        "examination_rules.txt",
+        "student_faq.txt"
+      ],
+      "retrieved_chunks_count": 3,
+      "context_coverage_percent": 100.0,
+      "retrieval_quality": "relevant",
+      "answer": "\nA student may apply for examination revaluation within the specified application period after results are published. This is stated in the university's knowledge base under the section on revaluation, which states that students may apply for revaluation of eligible theory examination papers within this period.",
+      "expected_answer": "Students may apply for revaluation of eligible theory examination papers within the specified application period."
+    },
+    {
+      "id": 10,
+      "category": "hostel",
+      "question": "What are the hostel entry timings?",
+      "sources": [
+        "hostel_rules.txt",
+        "student_faq.txt"
+      ],
+      "retrieved_chunks_count": 3,
+      "context_coverage_percent": 100.0,
+      "retrieval_quality": "relevant",
+      "answer": "The standard hostel entry deadline is 10:00 PM on regular days unless otherwise notified by the hostel administration, according to the hostel rules provided.",
+      "expected_answer": "Students must follow the hostel entry timings specified in the university hostel rules."
+    },
+    {
+      "id": 11,
+      "category": "hostel",
+      "question": "What should a student do if they need to enter the hostel after the allowed entry time?",
+      "sources": [
+        "hostel_rules.txt",
+        "student_faq.txt"
+      ],
+      "retrieved_chunks_count": 3,
+      "context_coverage_percent": 71.43,
+      "retrieval_quality": "relevant",
+      "answer": "Students should follow the late-entry procedure established by the university, which includes registering at the designated reception or security desk and providing a valid reason for entering the hostel after the standard entry time.",
+      "expected_answer": "Students entering the hostel after the allowed entry time must follow the late-entry procedure specified in the hostel rules and obtain the required permission."
+    },
+    {
+      "id": 12,
+      "category": "hostel",
+      "question": "Are visitors allowed inside the university hostel?",
+      "sources": [
+        "hostel_rules.txt",
+        "student_faq.txt"
+      ],
+      "retrieved_chunks_count": 3,
+      "context_coverage_percent": 90.0,
+      "retrieval_quality": "relevant",
+      "answer": "Yes, visitors are allowed inside the university hostel. According to the provided context, visitors must register at the designated reception or security desk during visiting hours specified by the hostel administration.",
+      "expected_answer": "Visitors are permitted only according to the visitor rules and timings specified by the university hostel regulations."
+    },
+    {
+      "id": 13,
+      "category": "hostel",
+      "question": "What are the rules for hostel leave?",
+      "sources": [
+        "hostel_rules.txt",
+        "student_faq.txt"
+      ],
+      "retrieved_chunks_count": 3,
+      "context_coverage_percent": 72.73,
+      "retrieval_quality": "relevant",
+      "answer": "\nAccording to the university context, students planning to stay away from the hostel overnight must submit a leave request through the designated hostel procedure.",
+      "expected_answer": "Students must follow the hostel leave procedure and obtain the required permission according to the university hostel rules."
+    },
+    {
+      "id": 14,
+      "category": "placement",
+      "question": "Who is eligible to participate in campus placement activities?",
+      "sources": [
+        "placement_policy.txt",
+        "student_faq.txt"
+      ],
+      "retrieved_chunks_count": 3,
+      "context_coverage_percent": 90.91,
+      "retrieval_quality": "relevant",
+      "answer": "Students with at least 75% attendance are eligible to participate in campus placements according to the information found in the university's placement policy. Students must satisfy the academic, attendance, and other eligibility criteria specified for each particular job opportunity.",
+      "expected_answer": "Students who satisfy the eligibility criteria specified in the university placement policy may participate in campus placement activities."
+    },
+    {
+      "id": 15,
+      "category": "placement",
+      "question": "Can students with an active backlog participate in placements?",
+      "sources": [
+        "placement_policy.txt",
+        "student_faq.txt"
+      ],
+      "retrieved_chunks_count": 3,
+      "context_coverage_percent": 63.64,
+      "retrieval_quality": "relevant",
+      "answer": "Students who have an active academic backlog may not be eligible to participate in certain recruitment opportunities as per the university's placement policy. The university may impose restrictions on students with an active backload during the recruitment process, depending on the requirements of the organization. It is advisable for students to check the eligibility criteria for each recruitment opportunity before registering for it.",
+      "expected_answer": "Students with active backlogs are subject to the eligibility conditions specified by the placement policy and individual recruiters."
+    },
+    {
+      "id": 16,
+      "category": "placement",
+      "question": "What documents are required for placement registration?",
+      "sources": [
+        "placement_policy.txt",
+        "examination_rules.txt"
+      ],
+      "retrieved_chunks_count": 3,
+      "context_coverage_percent": 88.89,
+      "retrieval_quality": "relevant",
+      "answer": "To be eligible for campus placements at ABC University, students must register with the university placement cell within the announced registration period. The following documents are required for placement registration:\n\n1. Academic records: Students must provide a copy of their academic transcripts from the previous semester.\n2. Personal details: Students must provide their personal information such as name, contact details, and other relevant details.\n3. Proof of attendance: Students must provide proof of attendance at the university for the past three years.\n4. Other documents: Depending on the recruiting company, students may be required to submit additional documents such as certificates or letters of recommendation.\n\nIt is important to note that eligibility requirements may vary by recruitment opportunity and companies may impose restrictions regarding active or historical academic backlogs. Students should check the eligibility criteria for each recruitment opportunity before registering for placement registration.",
+      "expected_answer": "Students must provide the documents required by the placement cell during placement registration, as specified in the placement policy."
+    },
+    {
+      "id": 17,
+      "category": "placement",
+      "question": "Can a student apply for multiple placement opportunities?",
+      "sources": [
+        "student_faq.txt",
+        "placement_policy.txt"
+      ],
+      "retrieved_chunks_count": 3,
+      "context_coverage_percent": 70.0,
+      "retrieval_quality": "relevant",
+      "answer": "\nAccording to the university context, students can apply for multiple placement opportunities. However, it is essential to check the eligibility requirements of each recruitment opportunity.",
+      "expected_answer": "Students may apply for placement opportunities according to the rules and eligibility conditions specified by the placement policy."
+    },
+    {
+      "id": 18,
+      "category": "academic",
+      "question": "How is CGPA calculated?",
+      "sources": [
+        "student_faq.txt",
+        "academic_regulations.txt"
+      ],
+      "retrieved_chunks_count": 3,
+      "context_coverage_percent": 100.0,
+      "retrieval_quality": "relevant",
+      "answer": "CGPA (Cumulative Grade Point Average) is calculated using the grade points and credits accumulated across the applicable semesters.",
+      "expected_answer": "CGPA represents cumulative academic performance and is calculated using grade points and credits accumulated."
+    },
+    {
+      "id": 19,
+      "category": "academic",
+      "question": "What does an F grade mean?",
+      "sources": [
+        "academic_regulations.txt"
+      ],
+      "retrieved_chunks_count": 3,
+      "context_coverage_percent": 83.33,
+      "retrieval_quality": "relevant",
+      "answer": "An F grade means that the student has failed the course and may need to take supplementary examinations or other approved processes by the university to regain admission.",
+      "expected_answer": "An F grade indicates that the student has failed the course and may need to clear it through a supplementary examination or another university-approved process."
+    },
+    {
+      "id": 20,
+      "category": "academic",
+      "question": "How are grade points related to credits?",
+      "sources": [
+        "academic_regulations.txt",
+        "student_faq.txt"
+      ],
+      "retrieved_chunks_count": 3,
+      "context_coverage_percent": 88.89,
+      "retrieval_quality": "relevant",
+      "answer": "\nThe relationship between grade points and credits is that each letter grade is associated with a grade point. Grade points are used when calculating the student's semester grade point average (SGPA) and cumulative grade point average (CGPA). \n\nFor example, A+ carries four grade points and is worth 4.00 credits, while C carries one grade point and is worth 1.00 credit. The SGPA is calculated by multiplying the grade point for each course by its credit value and dividing the total by the number of credits earned during a semester.",
+      "expected_answer": "Grade points and credits are used together in calculating cumulative academic performance and CGPA."
+    },
+    {
+      "id": 21,
+      "category": "academic",
+      "question": "What should a student do after failing a course?",
+      "sources": [
+        "academic_regulations.txt",
+        "examination_rules.txt"
+      ],
+      "retrieved_chunks_count": 3,
+      "context_coverage_percent": 80.0,
+      "retrieval_quality": "relevant",
+      "answer": "After failing a course, a student should retake the course or submit an application for revaluation. The university may also offer supplementary examinations to students who fail a course. To be eligible for these options, students must meet the academic progression requirements of the university and follow the rules and regulations regarding examinations. Failure to do so may result in disciplinary action.",
+      "expected_answer": "A student who fails a course may need to clear it through a supplementary examination or another university-approved process."
+    },
+    {
+      "id": 22,
+      "category": "general",
+      "question": "What is CampusAI?",
+      "sources": [
+        "student_faq.txt",
+        "academic_regulations.txt",
+        "hostel_rules.txt"
+      ],
+      "retrieved_chunks_count": 3,
+      "context_coverage_percent": 100.0,
+      "retrieval_quality": "relevant",
+      "answer": "CampusAI is a university knowledge assistant designed to help students find information about university policies, academic regulations, examinations, placements, hostels, and other institutional information.",
+      "expected_answer": "CampusAI is a university knowledge assistant designed to help students find information about university policies, academic regulations, examinations, placements, hostels, and other institutional information."
+    },
+    {
+      "id": 23,
+      "category": "general",
+      "question": "What types of university information can CampusAI provide?",
+      "sources": [
+        "student_faq.txt",
+        "placement_policy.txt"
+      ],
+      "retrieved_chunks_count": 3,
+      "context_coverage_percent": 81.25,
+      "retrieval_quality": "relevant",
+      "answer": "CampusAI is a university knowledge assistant designed to help students find information about university policies, academic regulations, examinations, placements, hostels, and other institutional information.",
+      "expected_answer": "CampusAI can provide information about university policies, academic regulations, examinations, placements, hostels, and other institutional information available in its knowledge base."
+    },
+    {
+      "id": 24,
+      "category": "general",
+      "question": "What should CampusAI do when information is not available in the knowledge base?",
+      "sources": [
+        "student_faq.txt",
+        "examination_rules.txt",
+        "hostel_rules.txt"
+      ],
+      "retrieved_chunks_count": 3,
+      "context_coverage_percent": 36.36,
+      "retrieval_quality": "partially_relevant",
+      "answer": "CampusAI will answer the question as follows based on the university context provided: \n\nWhen information is not available in the knowledge base, CampusAI will say that it is not available in the university's knowledge base.",
+      "expected_answer": "CampusAI should state that the requested information is not available in the university knowledge base rather than inventing an answer."
+    },
+    {
+      "id": 25,
+      "category": "general",
+      "question": "Why does CampusAI use a university knowledge base?",
+      "sources": [
+        "student_faq.txt",
+        "placement_policy.txt"
+      ],
+      "retrieved_chunks_count": 3,
+      "context_coverage_percent": 53.85,
+      "retrieval_quality": "relevant",
+      "answer": "To provide students with relevant and accurate information about university policies, academic regulations, examinations, placements, hostels, and other institutional information.",
+      "expected_answer": "CampusAI uses a university knowledge base to provide responses grounded in the institution's policies, regulations, FAQs, and other relevant university information."
+    }
+  ]
+}
