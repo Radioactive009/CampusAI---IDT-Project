@@ -1,0 +1,955 @@
+[
+  {
+    "id": 1,
+    "category": "attendance",
+    "question": "What is the minimum attendance required to appear for the semester-end examination?",
+    "expected_answer": "Students must maintain a minimum attendance of 75% in each registered course to be eligible to appear for the semester-end examination.",
+    "answer": "The minimum attendance requirement for ABC University's semester-end examinations is 75%. Students must maintain a minimum attendance of 75% in each registered course to be eligible to appear for the examination.",
+    "sources": [
+      "attendance_policy.txt",
+      "examination_rules.txt",
+      "student_faq.txt"
+    ],
+    "retrieved_chunks": [
+      {
+        "chunk": {
+          "chunk_id": "attendance_policy.txt_0",
+          "filename": "attendance_policy.txt",
+          "text": "ABC UNIVERSITY ATTENDANCE POLICY 1. Minimum Attendance Requirement Students must maintain a minimum attendance of 75% in each registered course to be eligible to appear for the semester-end examination. 2. Attendance Between 65% and 74% Students whose attendance is between 65% and 74% may apply for attendance condonation. Condonation is subject to approval by the academic department and applicable university rules. 3. Attendance Below 65% Students with attendance below 65% are not eligible for attendance condonation and may be debarred from the semester-end examination. 4. Medical Leave Medical leave may be considered when supported by valid medical documentation. Submission of"
+        },
+        "distance": 0.7843161225318909
+      },
+      {
+        "chunk": {
+          "chunk_id": "examination_rules.txt_0",
+          "filename": "examination_rules.txt",
+          "text": "ABC UNIVERSITY EXAMINATION RULES 1. Semester-End Examination Eligibility A student must satisfy the minimum attendance requirement and complete all required academic formalities to be eligible for the semester-end examination. 2. Examination Registration Students must complete examination registration within the announced registration period. Students who fail to complete registration may not be permitted to appear for the examination. 3. Revaluation Students may apply for revaluation of eligible theory examination papers within the specified application period after results are published. 4. Revaluation Application A student must submit the revaluation application through the university's designated examination portal and pay the applicable revaluation fee."
+        },
+        "distance": 0.792372465133667
+      },
+      {
+        "chunk": {
+          "chunk_id": "student_faq.txt_0",
+          "filename": "student_faq.txt",
+          "text": "ABC UNIVERSITY STUDENT FREQUENTLY ASKED QUESTIONS Q1. What is CampusAI? CampusAI is a university knowledge assistant designed to help students find information about university policies, academic regulations, examinations, placements, hostels, and other institutional information. Q2. What attendance is required for semester-end examinations? Students normally need at least 75% attendance in each registered course to be eligible for the semester-end examination. Q3. Can a student with 68% attendance apply for condonation? Students with attendance between 65% and 74% may apply for attendance condonation, subject to approval and applicable university rules. Q4. Can a student with 60% attendance receive attendance condonation? Students"
+        },
+        "distance": 0.8587744235992432
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": 2,
+    "category": "attendance",
+    "question": "Can a student with 68% attendance apply for attendance condonation?",
+    "expected_answer": "Yes. Students whose attendance is between 65% and 74% may apply for attendance condonation, subject to approval by the academic department and applicable university rules.",
+    "answer": "\nThe answer is Yes. A student with 68% attendance can apply for attendance condonation, subject to approval and applicable university rules. This is mentioned in the University Context provided earlier.",
+    "sources": [
+      "student_faq.txt",
+      "attendance_policy.txt"
+    ],
+    "retrieved_chunks": [
+      {
+        "chunk": {
+          "chunk_id": "student_faq.txt_1",
+          "filename": "student_faq.txt",
+          "text": "attendance condonation, subject to approval and applicable university rules. Q4. Can a student with 60% attendance receive attendance condonation? Students with attendance below 65% are not eligible for attendance condonation. Q5. Can students apply for examination revaluation? Students may apply for revaluation of eligible theory examination papers within the specified application period. Q6. What happens if a student fails a course? A student receiving an F grade may need to clear the course through a supplementary examination or another university-approved process. Q7. How is CGPA calculated? CGPA represents cumulative academic performance and is calculated using grade points and credits accumulated"
+        },
+        "distance": 0.6628471612930298
+      },
+      {
+        "chunk": {
+          "chunk_id": "attendance_policy.txt_0",
+          "filename": "attendance_policy.txt",
+          "text": "ABC UNIVERSITY ATTENDANCE POLICY 1. Minimum Attendance Requirement Students must maintain a minimum attendance of 75% in each registered course to be eligible to appear for the semester-end examination. 2. Attendance Between 65% and 74% Students whose attendance is between 65% and 74% may apply for attendance condonation. Condonation is subject to approval by the academic department and applicable university rules. 3. Attendance Below 65% Students with attendance below 65% are not eligible for attendance condonation and may be debarred from the semester-end examination. 4. Medical Leave Medical leave may be considered when supported by valid medical documentation. Submission of"
+        },
+        "distance": 0.725104570388794
+      },
+      {
+        "chunk": {
+          "chunk_id": "student_faq.txt_0",
+          "filename": "student_faq.txt",
+          "text": "ABC UNIVERSITY STUDENT FREQUENTLY ASKED QUESTIONS Q1. What is CampusAI? CampusAI is a university knowledge assistant designed to help students find information about university policies, academic regulations, examinations, placements, hostels, and other institutional information. Q2. What attendance is required for semester-end examinations? Students normally need at least 75% attendance in each registered course to be eligible for the semester-end examination. Q3. Can a student with 68% attendance apply for condonation? Students with attendance between 65% and 74% may apply for attendance condonation, subject to approval and applicable university rules. Q4. Can a student with 60% attendance receive attendance condonation? Students"
+        },
+        "distance": 0.7962312698364258
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": 3,
+    "category": "attendance",
+    "question": "Can a student with 60% attendance receive attendance condonation?",
+    "expected_answer": "No. Students with attendance below 65% are not eligible for attendance condonation.",
+    "answer": "Certainly! I'll do my best to provide an accurate and helpful answer based on the information provided.\n\nAccording to the University Context, students with attendance below 65% are not eligible for attendance condonation. Therefore, a student with 60% attendance is not eligible for attendance condonation. However, it's important to note that the university's attendance policy may vary depending on the specific circumstances of each student. It's always best to consult with the university's academic department or student services team for more information about attendance requirements and conditions.",
+    "sources": [
+      "student_faq.txt",
+      "attendance_policy.txt"
+    ],
+    "retrieved_chunks": [
+      {
+        "chunk": {
+          "chunk_id": "student_faq.txt_1",
+          "filename": "student_faq.txt",
+          "text": "attendance condonation, subject to approval and applicable university rules. Q4. Can a student with 60% attendance receive attendance condonation? Students with attendance below 65% are not eligible for attendance condonation. Q5. Can students apply for examination revaluation? Students may apply for revaluation of eligible theory examination papers within the specified application period. Q6. What happens if a student fails a course? A student receiving an F grade may need to clear the course through a supplementary examination or another university-approved process. Q7. How is CGPA calculated? CGPA represents cumulative academic performance and is calculated using grade points and credits accumulated"
+        },
+        "distance": 0.6967514157295227
+      },
+      {
+        "chunk": {
+          "chunk_id": "attendance_policy.txt_0",
+          "filename": "attendance_policy.txt",
+          "text": "ABC UNIVERSITY ATTENDANCE POLICY 1. Minimum Attendance Requirement Students must maintain a minimum attendance of 75% in each registered course to be eligible to appear for the semester-end examination. 2. Attendance Between 65% and 74% Students whose attendance is between 65% and 74% may apply for attendance condonation. Condonation is subject to approval by the academic department and applicable university rules. 3. Attendance Below 65% Students with attendance below 65% are not eligible for attendance condonation and may be debarred from the semester-end examination. 4. Medical Leave Medical leave may be considered when supported by valid medical documentation. Submission of"
+        },
+        "distance": 0.7868122458457947
+      },
+      {
+        "chunk": {
+          "chunk_id": "student_faq.txt_0",
+          "filename": "student_faq.txt",
+          "text": "ABC UNIVERSITY STUDENT FREQUENTLY ASKED QUESTIONS Q1. What is CampusAI? CampusAI is a university knowledge assistant designed to help students find information about university policies, academic regulations, examinations, placements, hostels, and other institutional information. Q2. What attendance is required for semester-end examinations? Students normally need at least 75% attendance in each registered course to be eligible for the semester-end examination. Q3. Can a student with 68% attendance apply for condonation? Students with attendance between 65% and 74% may apply for attendance condonation, subject to approval and applicable university rules. Q4. Can a student with 60% attendance receive attendance condonation? Students"
+        },
+        "distance": 0.838477373123169
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": 4,
+    "category": "attendance",
+    "question": "Can medical leave affect the attendance requirement?",
+    "expected_answer": "Medical leave may be considered when supported by valid medical documentation.",
+    "answer": "Attendance policy is provided in the attendance_policy.txt file of ABC University. In that file, it states that students with valid medical documentation may be considered for medical leave. Students who are concerned about their attendance record and believe they have a valid medical condition should contact their academic department and faculty member to discuss their situation and possible accommodations that may be available to them.",
+    "sources": [
+      "attendance_policy.txt",
+      "student_faq.txt"
+    ],
+    "retrieved_chunks": [
+      {
+        "chunk": {
+          "chunk_id": "attendance_policy.txt_1",
+          "filename": "attendance_policy.txt",
+          "text": "from the semester-end examination. 4. Medical Leave Medical leave may be considered when supported by valid medical documentation. Submission of medical documents does not automatically guarantee attendance relaxation. 5. Attendance Calculation Attendance is calculated based on the total number of classes conducted and the number of classes attended by the student. 6. Student Responsibility Students are responsible for regularly checking their attendance records and reporting discrepancies to the concerned faculty member before the end of the semester."
+        },
+        "distance": 0.5028171539306641
+      },
+      {
+        "chunk": {
+          "chunk_id": "attendance_policy.txt_0",
+          "filename": "attendance_policy.txt",
+          "text": "ABC UNIVERSITY ATTENDANCE POLICY 1. Minimum Attendance Requirement Students must maintain a minimum attendance of 75% in each registered course to be eligible to appear for the semester-end examination. 2. Attendance Between 65% and 74% Students whose attendance is between 65% and 74% may apply for attendance condonation. Condonation is subject to approval by the academic department and applicable university rules. 3. Attendance Below 65% Students with attendance below 65% are not eligible for attendance condonation and may be debarred from the semester-end examination. 4. Medical Leave Medical leave may be considered when supported by valid medical documentation. Submission of"
+        },
+        "distance": 0.772432804107666
+      },
+      {
+        "chunk": {
+          "chunk_id": "student_faq.txt_3",
+          "filename": "student_faq.txt",
+          "text": "No. Eligibility requirements may vary by recruiting company. Students should check the criteria specified for each recruitment opportunity."
+        },
+        "distance": 1.1552822589874268
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": 5,
+    "category": "attendance",
+    "question": "Who approves attendance condonation applications?",
+    "expected_answer": "Attendance condonation is subject to approval by the academic department and applicable university rules.",
+    "answer": "Attendance condonation applications are approved by the academic department, and applicable university rules.",
+    "sources": [
+      "student_faq.txt",
+      "attendance_policy.txt"
+    ],
+    "retrieved_chunks": [
+      {
+        "chunk": {
+          "chunk_id": "student_faq.txt_1",
+          "filename": "student_faq.txt",
+          "text": "attendance condonation, subject to approval and applicable university rules. Q4. Can a student with 60% attendance receive attendance condonation? Students with attendance below 65% are not eligible for attendance condonation. Q5. Can students apply for examination revaluation? Students may apply for revaluation of eligible theory examination papers within the specified application period. Q6. What happens if a student fails a course? A student receiving an F grade may need to clear the course through a supplementary examination or another university-approved process. Q7. How is CGPA calculated? CGPA represents cumulative academic performance and is calculated using grade points and credits accumulated"
+        },
+        "distance": 1.0528100728988647
+      },
+      {
+        "chunk": {
+          "chunk_id": "attendance_policy.txt_0",
+          "filename": "attendance_policy.txt",
+          "text": "ABC UNIVERSITY ATTENDANCE POLICY 1. Minimum Attendance Requirement Students must maintain a minimum attendance of 75% in each registered course to be eligible to appear for the semester-end examination. 2. Attendance Between 65% and 74% Students whose attendance is between 65% and 74% may apply for attendance condonation. Condonation is subject to approval by the academic department and applicable university rules. 3. Attendance Below 65% Students with attendance below 65% are not eligible for attendance condonation and may be debarred from the semester-end examination. 4. Medical Leave Medical leave may be considered when supported by valid medical documentation. Submission of"
+        },
+        "distance": 1.0867104530334473
+      },
+      {
+        "chunk": {
+          "chunk_id": "student_faq.txt_0",
+          "filename": "student_faq.txt",
+          "text": "ABC UNIVERSITY STUDENT FREQUENTLY ASKED QUESTIONS Q1. What is CampusAI? CampusAI is a university knowledge assistant designed to help students find information about university policies, academic regulations, examinations, placements, hostels, and other institutional information. Q2. What attendance is required for semester-end examinations? Students normally need at least 75% attendance in each registered course to be eligible for the semester-end examination. Q3. Can a student with 68% attendance apply for condonation? Students with attendance between 65% and 74% may apply for attendance condonation, subject to approval and applicable university rules. Q4. Can a student with 60% attendance receive attendance condonation? Students"
+        },
+        "distance": 1.1239395141601562
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": 6,
+    "category": "examination",
+    "question": "Can students apply for examination revaluation?",
+    "expected_answer": "Yes. Students may apply for revaluation of eligible theory examination papers within the specified application period.",
+    "answer": "According to the provided context, students may apply for revaluation of eligible theory examination papers within the specified application period. The information is available in the university knowledge base and is not invented by CampusAI.",
+    "sources": [
+      "examination_rules.txt",
+      "student_faq.txt"
+    ],
+    "retrieved_chunks": [
+      {
+        "chunk": {
+          "chunk_id": "examination_rules.txt_1",
+          "filename": "examination_rules.txt",
+          "text": "Application A student must submit the revaluation application through the university's designated examination portal and pay the applicable revaluation fee. 5. Supplementary Examination Students who fail a course may be eligible to appear for a supplementary examination when the university schedules one for that course. 6. Examination Conduct Students must carry their valid university identification card and examination admit card to the examination hall. 7. Academic Misconduct Using unauthorized materials, electronic devices, or other prohibited methods during an examination may be treated as academic misconduct and may result in disciplinary action."
+        },
+        "distance": 0.47600165009498596
+      },
+      {
+        "chunk": {
+          "chunk_id": "examination_rules.txt_0",
+          "filename": "examination_rules.txt",
+          "text": "ABC UNIVERSITY EXAMINATION RULES 1. Semester-End Examination Eligibility A student must satisfy the minimum attendance requirement and complete all required academic formalities to be eligible for the semester-end examination. 2. Examination Registration Students must complete examination registration within the announced registration period. Students who fail to complete registration may not be permitted to appear for the examination. 3. Revaluation Students may apply for revaluation of eligible theory examination papers within the specified application period after results are published. 4. Revaluation Application A student must submit the revaluation application through the university's designated examination portal and pay the applicable revaluation fee."
+        },
+        "distance": 0.6063875555992126
+      },
+      {
+        "chunk": {
+          "chunk_id": "student_faq.txt_1",
+          "filename": "student_faq.txt",
+          "text": "attendance condonation, subject to approval and applicable university rules. Q4. Can a student with 60% attendance receive attendance condonation? Students with attendance below 65% are not eligible for attendance condonation. Q5. Can students apply for examination revaluation? Students may apply for revaluation of eligible theory examination papers within the specified application period. Q6. What happens if a student fails a course? A student receiving an F grade may need to clear the course through a supplementary examination or another university-approved process. Q7. How is CGPA calculated? CGPA represents cumulative academic performance and is calculated using grade points and credits accumulated"
+        },
+        "distance": 0.86881422996521
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": 7,
+    "category": "examination",
+    "question": "What happens if a student fails a course?",
+    "expected_answer": "A student receiving an F grade may need to clear the course through a supplementary examination or another university-approved process.",
+    "answer": "A student who fails a course may need to retake the course, or they may be eligible for an examination revaluation. Failing a course is considered to have failed that course and students must meet the university's academic progression requirements to continue to the next academic level.",
+    "sources": [
+      "academic_regulations.txt",
+      "examination_rules.txt",
+      "student_faq.txt"
+    ],
+    "retrieved_chunks": [
+      {
+        "chunk": {
+          "chunk_id": "academic_regulations.txt_2",
+          "filename": "academic_regulations.txt",
+          "text": "receiving an F grade in a course is considered to have failed that course and may need to clear the course through a supplementary examination or other university-approved process. 7. Academic Progression Students must satisfy the university's academic progression requirements to continue to the next academic level."
+        },
+        "distance": 0.9283062219619751
+      },
+      {
+        "chunk": {
+          "chunk_id": "examination_rules.txt_1",
+          "filename": "examination_rules.txt",
+          "text": "Application A student must submit the revaluation application through the university's designated examination portal and pay the applicable revaluation fee. 5. Supplementary Examination Students who fail a course may be eligible to appear for a supplementary examination when the university schedules one for that course. 6. Examination Conduct Students must carry their valid university identification card and examination admit card to the examination hall. 7. Academic Misconduct Using unauthorized materials, electronic devices, or other prohibited methods during an examination may be treated as academic misconduct and may result in disciplinary action."
+        },
+        "distance": 1.0072731971740723
+      },
+      {
+        "chunk": {
+          "chunk_id": "student_faq.txt_1",
+          "filename": "student_faq.txt",
+          "text": "attendance condonation, subject to approval and applicable university rules. Q4. Can a student with 60% attendance receive attendance condonation? Students with attendance below 65% are not eligible for attendance condonation. Q5. Can students apply for examination revaluation? Students may apply for revaluation of eligible theory examination papers within the specified application period. Q6. What happens if a student fails a course? A student receiving an F grade may need to clear the course through a supplementary examination or another university-approved process. Q7. How is CGPA calculated? CGPA represents cumulative academic performance and is calculated using grade points and credits accumulated"
+        },
+        "distance": 1.1169943809509277
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": 8,
+    "category": "examination",
+    "question": "What are the eligibility requirements for semester-end examinations?",
+    "expected_answer": "Students must normally maintain at least 75% attendance in each registered course to be eligible for the semester-end examination.",
+    "answer": "\nThe eligibility requirements for semester-end examinations at ABC University are as follows:\n* A student must satisfy the minimum attendance requirement and complete all required academic formalities to be eligible for the semester-end examination. \n* The eligibility criteria vary depending on the course, but normally, a student needs at least 75% attendance in each registered course to be eligible for the semester-end examination.",
+    "sources": [
+      "examination_rules.txt",
+      "student_faq.txt"
+    ],
+    "retrieved_chunks": [
+      {
+        "chunk": {
+          "chunk_id": "examination_rules.txt_0",
+          "filename": "examination_rules.txt",
+          "text": "ABC UNIVERSITY EXAMINATION RULES 1. Semester-End Examination Eligibility A student must satisfy the minimum attendance requirement and complete all required academic formalities to be eligible for the semester-end examination. 2. Examination Registration Students must complete examination registration within the announced registration period. Students who fail to complete registration may not be permitted to appear for the examination. 3. Revaluation Students may apply for revaluation of eligible theory examination papers within the specified application period after results are published. 4. Revaluation Application A student must submit the revaluation application through the university's designated examination portal and pay the applicable revaluation fee."
+        },
+        "distance": 0.6351443529129028
+      },
+      {
+        "chunk": {
+          "chunk_id": "examination_rules.txt_1",
+          "filename": "examination_rules.txt",
+          "text": "Application A student must submit the revaluation application through the university's designated examination portal and pay the applicable revaluation fee. 5. Supplementary Examination Students who fail a course may be eligible to appear for a supplementary examination when the university schedules one for that course. 6. Examination Conduct Students must carry their valid university identification card and examination admit card to the examination hall. 7. Academic Misconduct Using unauthorized materials, electronic devices, or other prohibited methods during an examination may be treated as academic misconduct and may result in disciplinary action."
+        },
+        "distance": 0.8683537840843201
+      },
+      {
+        "chunk": {
+          "chunk_id": "student_faq.txt_0",
+          "filename": "student_faq.txt",
+          "text": "ABC UNIVERSITY STUDENT FREQUENTLY ASKED QUESTIONS Q1. What is CampusAI? CampusAI is a university knowledge assistant designed to help students find information about university policies, academic regulations, examinations, placements, hostels, and other institutional information. Q2. What attendance is required for semester-end examinations? Students normally need at least 75% attendance in each registered course to be eligible for the semester-end examination. Q3. Can a student with 68% attendance apply for condonation? Students with attendance between 65% and 74% may apply for attendance condonation, subject to approval and applicable university rules. Q4. Can a student with 60% attendance receive attendance condonation? Students"
+        },
+        "distance": 0.9933302402496338
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": 9,
+    "category": "examination",
+    "question": "When can a student apply for examination revaluation?",
+    "expected_answer": "Students may apply for revaluation of eligible theory examination papers within the specified application period.",
+    "answer": "\nA student may apply for examination revaluation within the specified application period after results are published. This is stated in the university's knowledge base under the section on revaluation, which states that students may apply for revaluation of eligible theory examination papers within this period.",
+    "sources": [
+      "examination_rules.txt",
+      "student_faq.txt"
+    ],
+    "retrieved_chunks": [
+      {
+        "chunk": {
+          "chunk_id": "examination_rules.txt_1",
+          "filename": "examination_rules.txt",
+          "text": "Application A student must submit the revaluation application through the university's designated examination portal and pay the applicable revaluation fee. 5. Supplementary Examination Students who fail a course may be eligible to appear for a supplementary examination when the university schedules one for that course. 6. Examination Conduct Students must carry their valid university identification card and examination admit card to the examination hall. 7. Academic Misconduct Using unauthorized materials, electronic devices, or other prohibited methods during an examination may be treated as academic misconduct and may result in disciplinary action."
+        },
+        "distance": 0.5621008276939392
+      },
+      {
+        "chunk": {
+          "chunk_id": "examination_rules.txt_0",
+          "filename": "examination_rules.txt",
+          "text": "ABC UNIVERSITY EXAMINATION RULES 1. Semester-End Examination Eligibility A student must satisfy the minimum attendance requirement and complete all required academic formalities to be eligible for the semester-end examination. 2. Examination Registration Students must complete examination registration within the announced registration period. Students who fail to complete registration may not be permitted to appear for the examination. 3. Revaluation Students may apply for revaluation of eligible theory examination papers within the specified application period after results are published. 4. Revaluation Application A student must submit the revaluation application through the university's designated examination portal and pay the applicable revaluation fee."
+        },
+        "distance": 0.619779109954834
+      },
+      {
+        "chunk": {
+          "chunk_id": "student_faq.txt_1",
+          "filename": "student_faq.txt",
+          "text": "attendance condonation, subject to approval and applicable university rules. Q4. Can a student with 60% attendance receive attendance condonation? Students with attendance below 65% are not eligible for attendance condonation. Q5. Can students apply for examination revaluation? Students may apply for revaluation of eligible theory examination papers within the specified application period. Q6. What happens if a student fails a course? A student receiving an F grade may need to clear the course through a supplementary examination or another university-approved process. Q7. How is CGPA calculated? CGPA represents cumulative academic performance and is calculated using grade points and credits accumulated"
+        },
+        "distance": 0.9550745487213135
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": 10,
+    "category": "hostel",
+    "question": "What are the hostel entry timings?",
+    "expected_answer": "Students must follow the hostel entry timings specified in the university hostel rules.",
+    "answer": "The standard hostel entry deadline is 10:00 PM on regular days unless otherwise notified by the hostel administration, according to the hostel rules provided.",
+    "sources": [
+      "hostel_rules.txt",
+      "student_faq.txt"
+    ],
+    "retrieved_chunks": [
+      {
+        "chunk": {
+          "chunk_id": "hostel_rules.txt_0",
+          "filename": "hostel_rules.txt",
+          "text": "ABC UNIVERSITY HOSTEL RULES 1. Hostel Entry Students residing in university hostels must follow the hostel entry and exit timings established by the university administration. 2. Hostel Entry Timing The standard hostel entry deadline is 10:00 PM on regular days unless otherwise notified by the hostel administration. 3. Late Entry Students returning after the standard entry time must follow the hostel's late-entry procedure and may be required to provide a valid reason. 4. Visitors Visitors are permitted only during the visiting hours specified by the hostel administration. Visitors must register at the designated reception or security desk. 5. Leave Students"
+        },
+        "distance": 0.6869226694107056
+      },
+      {
+        "chunk": {
+          "chunk_id": "student_faq.txt_2",
+          "filename": "student_faq.txt",
+          "text": "process. Q7. How is CGPA calculated? CGPA represents cumulative academic performance and is calculated using grade points and credits accumulated across the applicable semesters. Q8. What is the hostel entry deadline? The standard hostel entry deadline is 10:00 PM on regular days unless otherwise notified. Q9. How do students register for campus placements? Students interested in campus placements must register with the university placement cell during the announced registration period. Q10. Are placement eligibility criteria the same for every company? No. Eligibility requirements may vary by recruiting company. Students should check the criteria specified for each recruitment opportunity."
+        },
+        "distance": 0.7960755825042725
+      },
+      {
+        "chunk": {
+          "chunk_id": "hostel_rules.txt_1",
+          "filename": "hostel_rules.txt",
+          "text": "visiting hours specified by the hostel administration. Visitors must register at the designated reception or security desk. 5. Leave Students planning to stay away from the hostel overnight must submit a leave request through the designated hostel procedure. 6. Room Responsibility Students are responsible for maintaining cleanliness and taking care of furniture and other university property provided in their rooms. 7. Prohibited Activities Activities that violate university rules, hostel regulations, or applicable laws are prohibited within the hostel premises."
+        },
+        "distance": 1.0699821710586548
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": 11,
+    "category": "hostel",
+    "question": "What should a student do if they need to enter the hostel after the allowed entry time?",
+    "expected_answer": "Students entering the hostel after the allowed entry time must follow the late-entry procedure specified in the hostel rules and obtain the required permission.",
+    "answer": "Students should follow the late-entry procedure established by the university, which includes registering at the designated reception or security desk and providing a valid reason for entering the hostel after the standard entry time.",
+    "sources": [
+      "hostel_rules.txt",
+      "student_faq.txt"
+    ],
+    "retrieved_chunks": [
+      {
+        "chunk": {
+          "chunk_id": "hostel_rules.txt_1",
+          "filename": "hostel_rules.txt",
+          "text": "visiting hours specified by the hostel administration. Visitors must register at the designated reception or security desk. 5. Leave Students planning to stay away from the hostel overnight must submit a leave request through the designated hostel procedure. 6. Room Responsibility Students are responsible for maintaining cleanliness and taking care of furniture and other university property provided in their rooms. 7. Prohibited Activities Activities that violate university rules, hostel regulations, or applicable laws are prohibited within the hostel premises."
+        },
+        "distance": 0.5868480801582336
+      },
+      {
+        "chunk": {
+          "chunk_id": "hostel_rules.txt_0",
+          "filename": "hostel_rules.txt",
+          "text": "ABC UNIVERSITY HOSTEL RULES 1. Hostel Entry Students residing in university hostels must follow the hostel entry and exit timings established by the university administration. 2. Hostel Entry Timing The standard hostel entry deadline is 10:00 PM on regular days unless otherwise notified by the hostel administration. 3. Late Entry Students returning after the standard entry time must follow the hostel's late-entry procedure and may be required to provide a valid reason. 4. Visitors Visitors are permitted only during the visiting hours specified by the hostel administration. Visitors must register at the designated reception or security desk. 5. Leave Students"
+        },
+        "distance": 0.6976659297943115
+      },
+      {
+        "chunk": {
+          "chunk_id": "student_faq.txt_2",
+          "filename": "student_faq.txt",
+          "text": "process. Q7. How is CGPA calculated? CGPA represents cumulative academic performance and is calculated using grade points and credits accumulated across the applicable semesters. Q8. What is the hostel entry deadline? The standard hostel entry deadline is 10:00 PM on regular days unless otherwise notified. Q9. How do students register for campus placements? Students interested in campus placements must register with the university placement cell during the announced registration period. Q10. Are placement eligibility criteria the same for every company? No. Eligibility requirements may vary by recruiting company. Students should check the criteria specified for each recruitment opportunity."
+        },
+        "distance": 1.0980759859085083
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": 12,
+    "category": "hostel",
+    "question": "Are visitors allowed inside the university hostel?",
+    "expected_answer": "Visitors are permitted only according to the visitor rules and timings specified by the university hostel regulations.",
+    "answer": "Yes, visitors are allowed inside the university hostel. According to the provided context, visitors must register at the designated reception or security desk during visiting hours specified by the hostel administration.",
+    "sources": [
+      "hostel_rules.txt",
+      "student_faq.txt"
+    ],
+    "retrieved_chunks": [
+      {
+        "chunk": {
+          "chunk_id": "hostel_rules.txt_1",
+          "filename": "hostel_rules.txt",
+          "text": "visiting hours specified by the hostel administration. Visitors must register at the designated reception or security desk. 5. Leave Students planning to stay away from the hostel overnight must submit a leave request through the designated hostel procedure. 6. Room Responsibility Students are responsible for maintaining cleanliness and taking care of furniture and other university property provided in their rooms. 7. Prohibited Activities Activities that violate university rules, hostel regulations, or applicable laws are prohibited within the hostel premises."
+        },
+        "distance": 0.6075493097305298
+      },
+      {
+        "chunk": {
+          "chunk_id": "hostel_rules.txt_0",
+          "filename": "hostel_rules.txt",
+          "text": "ABC UNIVERSITY HOSTEL RULES 1. Hostel Entry Students residing in university hostels must follow the hostel entry and exit timings established by the university administration. 2. Hostel Entry Timing The standard hostel entry deadline is 10:00 PM on regular days unless otherwise notified by the hostel administration. 3. Late Entry Students returning after the standard entry time must follow the hostel's late-entry procedure and may be required to provide a valid reason. 4. Visitors Visitors are permitted only during the visiting hours specified by the hostel administration. Visitors must register at the designated reception or security desk. 5. Leave Students"
+        },
+        "distance": 0.8351014852523804
+      },
+      {
+        "chunk": {
+          "chunk_id": "student_faq.txt_0",
+          "filename": "student_faq.txt",
+          "text": "ABC UNIVERSITY STUDENT FREQUENTLY ASKED QUESTIONS Q1. What is CampusAI? CampusAI is a university knowledge assistant designed to help students find information about university policies, academic regulations, examinations, placements, hostels, and other institutional information. Q2. What attendance is required for semester-end examinations? Students normally need at least 75% attendance in each registered course to be eligible for the semester-end examination. Q3. Can a student with 68% attendance apply for condonation? Students with attendance between 65% and 74% may apply for attendance condonation, subject to approval and applicable university rules. Q4. Can a student with 60% attendance receive attendance condonation? Students"
+        },
+        "distance": 1.126280665397644
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": 13,
+    "category": "hostel",
+    "question": "What are the rules for hostel leave?",
+    "expected_answer": "Students must follow the hostel leave procedure and obtain the required permission according to the university hostel rules.",
+    "answer": "\nAccording to the university context, students planning to stay away from the hostel overnight must submit a leave request through the designated hostel procedure.",
+    "sources": [
+      "hostel_rules.txt",
+      "student_faq.txt"
+    ],
+    "retrieved_chunks": [
+      {
+        "chunk": {
+          "chunk_id": "hostel_rules.txt_1",
+          "filename": "hostel_rules.txt",
+          "text": "visiting hours specified by the hostel administration. Visitors must register at the designated reception or security desk. 5. Leave Students planning to stay away from the hostel overnight must submit a leave request through the designated hostel procedure. 6. Room Responsibility Students are responsible for maintaining cleanliness and taking care of furniture and other university property provided in their rooms. 7. Prohibited Activities Activities that violate university rules, hostel regulations, or applicable laws are prohibited within the hostel premises."
+        },
+        "distance": 0.48753148317337036
+      },
+      {
+        "chunk": {
+          "chunk_id": "hostel_rules.txt_0",
+          "filename": "hostel_rules.txt",
+          "text": "ABC UNIVERSITY HOSTEL RULES 1. Hostel Entry Students residing in university hostels must follow the hostel entry and exit timings established by the university administration. 2. Hostel Entry Timing The standard hostel entry deadline is 10:00 PM on regular days unless otherwise notified by the hostel administration. 3. Late Entry Students returning after the standard entry time must follow the hostel's late-entry procedure and may be required to provide a valid reason. 4. Visitors Visitors are permitted only during the visiting hours specified by the hostel administration. Visitors must register at the designated reception or security desk. 5. Leave Students"
+        },
+        "distance": 0.9628836512565613
+      },
+      {
+        "chunk": {
+          "chunk_id": "student_faq.txt_2",
+          "filename": "student_faq.txt",
+          "text": "process. Q7. How is CGPA calculated? CGPA represents cumulative academic performance and is calculated using grade points and credits accumulated across the applicable semesters. Q8. What is the hostel entry deadline? The standard hostel entry deadline is 10:00 PM on regular days unless otherwise notified. Q9. How do students register for campus placements? Students interested in campus placements must register with the university placement cell during the announced registration period. Q10. Are placement eligibility criteria the same for every company? No. Eligibility requirements may vary by recruiting company. Students should check the criteria specified for each recruitment opportunity."
+        },
+        "distance": 1.1715803146362305
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": 14,
+    "category": "placement",
+    "question": "Who is eligible to participate in campus placement activities?",
+    "expected_answer": "Students who satisfy the eligibility criteria specified in the university placement policy may participate in campus placement activities.",
+    "answer": "Students with at least 75% attendance are eligible to participate in campus placements according to the information found in the university's placement policy. Students must satisfy the academic, attendance, and other eligibility criteria specified for each particular job opportunity.",
+    "sources": [
+      "placement_policy.txt",
+      "student_faq.txt"
+    ],
+    "retrieved_chunks": [
+      {
+        "chunk": {
+          "chunk_id": "placement_policy.txt_1",
+          "filename": "placement_policy.txt",
+          "text": "active or historical academic backlogs. Students should check the eligibility criteria for each recruitment opportunity. 5. Placement Process The placement process may include application screening, aptitude tests, technical assessments, interviews, group discussions, or other selection activities depending on the recruiting company. 6. Student Responsibility Students must provide accurate academic and personal information during placement registration. 7. Internship Opportunities The placement cell may also circulate internship opportunities from participating organizations. Internship eligibility is determined according to the requirements specified by the organization."
+        },
+        "distance": 0.7974363565444946
+      },
+      {
+        "chunk": {
+          "chunk_id": "student_faq.txt_0",
+          "filename": "student_faq.txt",
+          "text": "ABC UNIVERSITY STUDENT FREQUENTLY ASKED QUESTIONS Q1. What is CampusAI? CampusAI is a university knowledge assistant designed to help students find information about university policies, academic regulations, examinations, placements, hostels, and other institutional information. Q2. What attendance is required for semester-end examinations? Students normally need at least 75% attendance in each registered course to be eligible for the semester-end examination. Q3. Can a student with 68% attendance apply for condonation? Students with attendance between 65% and 74% may apply for attendance condonation, subject to approval and applicable university rules. Q4. Can a student with 60% attendance receive attendance condonation? Students"
+        },
+        "distance": 0.8292416930198669
+      },
+      {
+        "chunk": {
+          "chunk_id": "placement_policy.txt_0",
+          "filename": "placement_policy.txt",
+          "text": "ABC UNIVERSITY PLACEMENT POLICY 1. Placement Registration Students interested in campus placements must register with the university placement cell within the announced registration period. 2. Placement Eligibility Eligibility requirements may vary by recruiting company. Students must satisfy the academic, attendance, and other eligibility criteria specified for the particular recruitment opportunity. 3. Academic Performance Some companies may specify minimum CGPA or percentage requirements. Students must meet the criteria specified in the particular job description. 4. Backlogs Companies may impose restrictions regarding active or historical academic backlogs. Students should check the eligibility criteria for each recruitment opportunity. 5. Placement Process The placement"
+        },
+        "distance": 0.8368585109710693
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": 15,
+    "category": "placement",
+    "question": "Can students with an active backlog participate in placements?",
+    "expected_answer": "Students with active backlogs are subject to the eligibility conditions specified by the placement policy and individual recruiters.",
+    "answer": "Students who have an active academic backlog may not be eligible to participate in certain recruitment opportunities as per the university's placement policy. The university may impose restrictions on students with an active backload during the recruitment process, depending on the requirements of the organization. It is advisable for students to check the eligibility criteria for each recruitment opportunity before registering for it.",
+    "sources": [
+      "placement_policy.txt",
+      "student_faq.txt"
+    ],
+    "retrieved_chunks": [
+      {
+        "chunk": {
+          "chunk_id": "placement_policy.txt_1",
+          "filename": "placement_policy.txt",
+          "text": "active or historical academic backlogs. Students should check the eligibility criteria for each recruitment opportunity. 5. Placement Process The placement process may include application screening, aptitude tests, technical assessments, interviews, group discussions, or other selection activities depending on the recruiting company. 6. Student Responsibility Students must provide accurate academic and personal information during placement registration. 7. Internship Opportunities The placement cell may also circulate internship opportunities from participating organizations. Internship eligibility is determined according to the requirements specified by the organization."
+        },
+        "distance": 0.8689308166503906
+      },
+      {
+        "chunk": {
+          "chunk_id": "student_faq.txt_3",
+          "filename": "student_faq.txt",
+          "text": "No. Eligibility requirements may vary by recruiting company. Students should check the criteria specified for each recruitment opportunity."
+        },
+        "distance": 0.9985828995704651
+      },
+      {
+        "chunk": {
+          "chunk_id": "placement_policy.txt_0",
+          "filename": "placement_policy.txt",
+          "text": "ABC UNIVERSITY PLACEMENT POLICY 1. Placement Registration Students interested in campus placements must register with the university placement cell within the announced registration period. 2. Placement Eligibility Eligibility requirements may vary by recruiting company. Students must satisfy the academic, attendance, and other eligibility criteria specified for the particular recruitment opportunity. 3. Academic Performance Some companies may specify minimum CGPA or percentage requirements. Students must meet the criteria specified in the particular job description. 4. Backlogs Companies may impose restrictions regarding active or historical academic backlogs. Students should check the eligibility criteria for each recruitment opportunity. 5. Placement Process The placement"
+        },
+        "distance": 1.085603952407837
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": 16,
+    "category": "placement",
+    "question": "What documents are required for placement registration?",
+    "expected_answer": "Students must provide the documents required by the placement cell during placement registration, as specified in the placement policy.",
+    "answer": "To be eligible for campus placements at ABC University, students must register with the university placement cell within the announced registration period. The following documents are required for placement registration:\n\n1. Academic records: Students must provide a copy of their academic transcripts from the previous semester.\n2. Personal details: Students must provide their personal information such as name, contact details, and other relevant details.\n3. Proof of attendance: Students must provide proof of attendance at the university for the past three years.\n4. Other documents: Depending on the recruiting company, students may be required to submit additional documents such as certificates or letters of recommendation.\n\nIt is important to note that eligibility requirements may vary by recruitment opportunity and companies may impose restrictions regarding active or historical academic backlogs. Students should check the eligibility criteria for each recruitment opportunity before registering for placement registration.",
+    "sources": [
+      "placement_policy.txt",
+      "examination_rules.txt"
+    ],
+    "retrieved_chunks": [
+      {
+        "chunk": {
+          "chunk_id": "placement_policy.txt_1",
+          "filename": "placement_policy.txt",
+          "text": "active or historical academic backlogs. Students should check the eligibility criteria for each recruitment opportunity. 5. Placement Process The placement process may include application screening, aptitude tests, technical assessments, interviews, group discussions, or other selection activities depending on the recruiting company. 6. Student Responsibility Students must provide accurate academic and personal information during placement registration. 7. Internship Opportunities The placement cell may also circulate internship opportunities from participating organizations. Internship eligibility is determined according to the requirements specified by the organization."
+        },
+        "distance": 0.9823482632637024
+      },
+      {
+        "chunk": {
+          "chunk_id": "placement_policy.txt_0",
+          "filename": "placement_policy.txt",
+          "text": "ABC UNIVERSITY PLACEMENT POLICY 1. Placement Registration Students interested in campus placements must register with the university placement cell within the announced registration period. 2. Placement Eligibility Eligibility requirements may vary by recruiting company. Students must satisfy the academic, attendance, and other eligibility criteria specified for the particular recruitment opportunity. 3. Academic Performance Some companies may specify minimum CGPA or percentage requirements. Students must meet the criteria specified in the particular job description. 4. Backlogs Companies may impose restrictions regarding active or historical academic backlogs. Students should check the eligibility criteria for each recruitment opportunity. 5. Placement Process The placement"
+        },
+        "distance": 1.0464472770690918
+      },
+      {
+        "chunk": {
+          "chunk_id": "examination_rules.txt_0",
+          "filename": "examination_rules.txt",
+          "text": "ABC UNIVERSITY EXAMINATION RULES 1. Semester-End Examination Eligibility A student must satisfy the minimum attendance requirement and complete all required academic formalities to be eligible for the semester-end examination. 2. Examination Registration Students must complete examination registration within the announced registration period. Students who fail to complete registration may not be permitted to appear for the examination. 3. Revaluation Students may apply for revaluation of eligible theory examination papers within the specified application period after results are published. 4. Revaluation Application A student must submit the revaluation application through the university's designated examination portal and pay the applicable revaluation fee."
+        },
+        "distance": 1.2803438901901245
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": 17,
+    "category": "placement",
+    "question": "Can a student apply for multiple placement opportunities?",
+    "expected_answer": "Students may apply for placement opportunities according to the rules and eligibility conditions specified by the placement policy.",
+    "answer": "\nAccording to the university context, students can apply for multiple placement opportunities. However, it is essential to check the eligibility requirements of each recruitment opportunity.",
+    "sources": [
+      "student_faq.txt",
+      "placement_policy.txt"
+    ],
+    "retrieved_chunks": [
+      {
+        "chunk": {
+          "chunk_id": "student_faq.txt_3",
+          "filename": "student_faq.txt",
+          "text": "No. Eligibility requirements may vary by recruiting company. Students should check the criteria specified for each recruitment opportunity."
+        },
+        "distance": 0.869682788848877
+      },
+      {
+        "chunk": {
+          "chunk_id": "placement_policy.txt_1",
+          "filename": "placement_policy.txt",
+          "text": "active or historical academic backlogs. Students should check the eligibility criteria for each recruitment opportunity. 5. Placement Process The placement process may include application screening, aptitude tests, technical assessments, interviews, group discussions, or other selection activities depending on the recruiting company. 6. Student Responsibility Students must provide accurate academic and personal information during placement registration. 7. Internship Opportunities The placement cell may also circulate internship opportunities from participating organizations. Internship eligibility is determined according to the requirements specified by the organization."
+        },
+        "distance": 0.93515545129776
+      },
+      {
+        "chunk": {
+          "chunk_id": "placement_policy.txt_0",
+          "filename": "placement_policy.txt",
+          "text": "ABC UNIVERSITY PLACEMENT POLICY 1. Placement Registration Students interested in campus placements must register with the university placement cell within the announced registration period. 2. Placement Eligibility Eligibility requirements may vary by recruiting company. Students must satisfy the academic, attendance, and other eligibility criteria specified for the particular recruitment opportunity. 3. Academic Performance Some companies may specify minimum CGPA or percentage requirements. Students must meet the criteria specified in the particular job description. 4. Backlogs Companies may impose restrictions regarding active or historical academic backlogs. Students should check the eligibility criteria for each recruitment opportunity. 5. Placement Process The placement"
+        },
+        "distance": 1.119225025177002
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": 18,
+    "category": "academic",
+    "question": "How is CGPA calculated?",
+    "expected_answer": "CGPA represents cumulative academic performance and is calculated using grade points and credits accumulated.",
+    "answer": "CGPA (Cumulative Grade Point Average) is calculated using the grade points and credits accumulated across the applicable semesters.",
+    "sources": [
+      "student_faq.txt",
+      "academic_regulations.txt"
+    ],
+    "retrieved_chunks": [
+      {
+        "chunk": {
+          "chunk_id": "student_faq.txt_2",
+          "filename": "student_faq.txt",
+          "text": "process. Q7. How is CGPA calculated? CGPA represents cumulative academic performance and is calculated using grade points and credits accumulated across the applicable semesters. Q8. What is the hostel entry deadline? The standard hostel entry deadline is 10:00 PM on regular days unless otherwise notified. Q9. How do students register for campus placements? Students interested in campus placements must register with the university placement cell during the announced registration period. Q10. Are placement eligibility criteria the same for every company? No. Eligibility requirements may vary by recruiting company. Students should check the criteria specified for each recruitment opportunity."
+        },
+        "distance": 0.7228835225105286
+      },
+      {
+        "chunk": {
+          "chunk_id": "academic_regulations.txt_1",
+          "filename": "academic_regulations.txt",
+          "text": "the student's semester grade point average and cumulative grade point average. 4. SGPA Semester Grade Point Average (SGPA) represents the weighted academic performance of a student during a particular semester. SGPA is calculated using the grade points and credits of courses completed during that semester. 5. CGPA Cumulative Grade Point Average (CGPA) represents the student's cumulative academic performance across completed semesters. CGPA is calculated using the grade points and credits accumulated across the applicable semesters. 6. Course Failure A student receiving an F grade in a course is considered to have failed that course and may need to clear the"
+        },
+        "distance": 0.7420961260795593
+      },
+      {
+        "chunk": {
+          "chunk_id": "student_faq.txt_1",
+          "filename": "student_faq.txt",
+          "text": "attendance condonation, subject to approval and applicable university rules. Q4. Can a student with 60% attendance receive attendance condonation? Students with attendance below 65% are not eligible for attendance condonation. Q5. Can students apply for examination revaluation? Students may apply for revaluation of eligible theory examination papers within the specified application period. Q6. What happens if a student fails a course? A student receiving an F grade may need to clear the course through a supplementary examination or another university-approved process. Q7. How is CGPA calculated? CGPA represents cumulative academic performance and is calculated using grade points and credits accumulated"
+        },
+        "distance": 0.8896976113319397
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": 19,
+    "category": "academic",
+    "question": "What does an F grade mean?",
+    "expected_answer": "An F grade indicates that the student has failed the course and may need to clear it through a supplementary examination or another university-approved process.",
+    "answer": "An F grade means that the student has failed the course and may need to take supplementary examinations or other approved processes by the university to regain admission.",
+    "sources": [
+      "academic_regulations.txt"
+    ],
+    "retrieved_chunks": [
+      {
+        "chunk": {
+          "chunk_id": "academic_regulations.txt_2",
+          "filename": "academic_regulations.txt",
+          "text": "receiving an F grade in a course is considered to have failed that course and may need to clear the course through a supplementary examination or other university-approved process. 7. Academic Progression Students must satisfy the university's academic progression requirements to continue to the next academic level."
+        },
+        "distance": 0.6732101440429688
+      },
+      {
+        "chunk": {
+          "chunk_id": "academic_regulations.txt_0",
+          "filename": "academic_regulations.txt",
+          "text": "ABC UNIVERSITY ACADEMIC REGULATIONS 1. Academic Credits Each course carries a specified number of academic credits. Credits represent the academic workload associated with a course. 2. Grading System ABC University uses letter grades to represent academic performance. The grades are: A+ : Outstanding A : Excellent B+ : Very Good B : Good C : Satisfactory D : Pass F : Fail 3. Grade Points Each letter grade is associated with a grade point. Grade points are used when calculating the student's semester grade point average and cumulative grade point average. 4. SGPA Semester Grade Point Average (SGPA) represents the"
+        },
+        "distance": 1.041473388671875
+      },
+      {
+        "chunk": {
+          "chunk_id": "academic_regulations.txt_1",
+          "filename": "academic_regulations.txt",
+          "text": "the student's semester grade point average and cumulative grade point average. 4. SGPA Semester Grade Point Average (SGPA) represents the weighted academic performance of a student during a particular semester. SGPA is calculated using the grade points and credits of courses completed during that semester. 5. CGPA Cumulative Grade Point Average (CGPA) represents the student's cumulative academic performance across completed semesters. CGPA is calculated using the grade points and credits accumulated across the applicable semesters. 6. Course Failure A student receiving an F grade in a course is considered to have failed that course and may need to clear the"
+        },
+        "distance": 1.0697340965270996
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": 20,
+    "category": "academic",
+    "question": "How are grade points related to credits?",
+    "expected_answer": "Grade points and credits are used together in calculating cumulative academic performance and CGPA.",
+    "answer": "\nThe relationship between grade points and credits is that each letter grade is associated with a grade point. Grade points are used when calculating the student's semester grade point average (SGPA) and cumulative grade point average (CGPA). \n\nFor example, A+ carries four grade points and is worth 4.00 credits, while C carries one grade point and is worth 1.00 credit. The SGPA is calculated by multiplying the grade point for each course by its credit value and dividing the total by the number of credits earned during a semester.",
+    "sources": [
+      "academic_regulations.txt",
+      "student_faq.txt"
+    ],
+    "retrieved_chunks": [
+      {
+        "chunk": {
+          "chunk_id": "academic_regulations.txt_0",
+          "filename": "academic_regulations.txt",
+          "text": "ABC UNIVERSITY ACADEMIC REGULATIONS 1. Academic Credits Each course carries a specified number of academic credits. Credits represent the academic workload associated with a course. 2. Grading System ABC University uses letter grades to represent academic performance. The grades are: A+ : Outstanding A : Excellent B+ : Very Good B : Good C : Satisfactory D : Pass F : Fail 3. Grade Points Each letter grade is associated with a grade point. Grade points are used when calculating the student's semester grade point average and cumulative grade point average. 4. SGPA Semester Grade Point Average (SGPA) represents the"
+        },
+        "distance": 0.6693942546844482
+      },
+      {
+        "chunk": {
+          "chunk_id": "academic_regulations.txt_1",
+          "filename": "academic_regulations.txt",
+          "text": "the student's semester grade point average and cumulative grade point average. 4. SGPA Semester Grade Point Average (SGPA) represents the weighted academic performance of a student during a particular semester. SGPA is calculated using the grade points and credits of courses completed during that semester. 5. CGPA Cumulative Grade Point Average (CGPA) represents the student's cumulative academic performance across completed semesters. CGPA is calculated using the grade points and credits accumulated across the applicable semesters. 6. Course Failure A student receiving an F grade in a course is considered to have failed that course and may need to clear the"
+        },
+        "distance": 0.8736253976821899
+      },
+      {
+        "chunk": {
+          "chunk_id": "student_faq.txt_1",
+          "filename": "student_faq.txt",
+          "text": "attendance condonation, subject to approval and applicable university rules. Q4. Can a student with 60% attendance receive attendance condonation? Students with attendance below 65% are not eligible for attendance condonation. Q5. Can students apply for examination revaluation? Students may apply for revaluation of eligible theory examination papers within the specified application period. Q6. What happens if a student fails a course? A student receiving an F grade may need to clear the course through a supplementary examination or another university-approved process. Q7. How is CGPA calculated? CGPA represents cumulative academic performance and is calculated using grade points and credits accumulated"
+        },
+        "distance": 1.201582670211792
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": 21,
+    "category": "academic",
+    "question": "What should a student do after failing a course?",
+    "expected_answer": "A student who fails a course may need to clear it through a supplementary examination or another university-approved process.",
+    "answer": "After failing a course, a student should retake the course or submit an application for revaluation. The university may also offer supplementary examinations to students who fail a course. To be eligible for these options, students must meet the academic progression requirements of the university and follow the rules and regulations regarding examinations. Failure to do so may result in disciplinary action.",
+    "sources": [
+      "academic_regulations.txt",
+      "examination_rules.txt"
+    ],
+    "retrieved_chunks": [
+      {
+        "chunk": {
+          "chunk_id": "academic_regulations.txt_2",
+          "filename": "academic_regulations.txt",
+          "text": "receiving an F grade in a course is considered to have failed that course and may need to clear the course through a supplementary examination or other university-approved process. 7. Academic Progression Students must satisfy the university's academic progression requirements to continue to the next academic level."
+        },
+        "distance": 0.9689928293228149
+      },
+      {
+        "chunk": {
+          "chunk_id": "examination_rules.txt_1",
+          "filename": "examination_rules.txt",
+          "text": "Application A student must submit the revaluation application through the university's designated examination portal and pay the applicable revaluation fee. 5. Supplementary Examination Students who fail a course may be eligible to appear for a supplementary examination when the university schedules one for that course. 6. Examination Conduct Students must carry their valid university identification card and examination admit card to the examination hall. 7. Academic Misconduct Using unauthorized materials, electronic devices, or other prohibited methods during an examination may be treated as academic misconduct and may result in disciplinary action."
+        },
+        "distance": 1.1929285526275635
+      },
+      {
+        "chunk": {
+          "chunk_id": "examination_rules.txt_2",
+          "filename": "examination_rules.txt",
+          "text": "be treated as academic misconduct and may result in disciplinary action."
+        },
+        "distance": 1.2480794191360474
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": 22,
+    "category": "general",
+    "question": "What is CampusAI?",
+    "expected_answer": "CampusAI is a university knowledge assistant designed to help students find information about university policies, academic regulations, examinations, placements, hostels, and other institutional information.",
+    "answer": "CampusAI is a university knowledge assistant designed to help students find information about university policies, academic regulations, examinations, placements, hostels, and other institutional information.",
+    "sources": [
+      "student_faq.txt",
+      "academic_regulations.txt",
+      "hostel_rules.txt"
+    ],
+    "retrieved_chunks": [
+      {
+        "chunk": {
+          "chunk_id": "student_faq.txt_0",
+          "filename": "student_faq.txt",
+          "text": "ABC UNIVERSITY STUDENT FREQUENTLY ASKED QUESTIONS Q1. What is CampusAI? CampusAI is a university knowledge assistant designed to help students find information about university policies, academic regulations, examinations, placements, hostels, and other institutional information. Q2. What attendance is required for semester-end examinations? Students normally need at least 75% attendance in each registered course to be eligible for the semester-end examination. Q3. Can a student with 68% attendance apply for condonation? Students with attendance between 65% and 74% may apply for attendance condonation, subject to approval and applicable university rules. Q4. Can a student with 60% attendance receive attendance condonation? Students"
+        },
+        "distance": 0.7738381028175354
+      },
+      {
+        "chunk": {
+          "chunk_id": "academic_regulations.txt_1",
+          "filename": "academic_regulations.txt",
+          "text": "the student's semester grade point average and cumulative grade point average. 4. SGPA Semester Grade Point Average (SGPA) represents the weighted academic performance of a student during a particular semester. SGPA is calculated using the grade points and credits of courses completed during that semester. 5. CGPA Cumulative Grade Point Average (CGPA) represents the student's cumulative academic performance across completed semesters. CGPA is calculated using the grade points and credits accumulated across the applicable semesters. 6. Course Failure A student receiving an F grade in a course is considered to have failed that course and may need to clear the"
+        },
+        "distance": 1.4053109884262085
+      },
+      {
+        "chunk": {
+          "chunk_id": "hostel_rules.txt_1",
+          "filename": "hostel_rules.txt",
+          "text": "visiting hours specified by the hostel administration. Visitors must register at the designated reception or security desk. 5. Leave Students planning to stay away from the hostel overnight must submit a leave request through the designated hostel procedure. 6. Room Responsibility Students are responsible for maintaining cleanliness and taking care of furniture and other university property provided in their rooms. 7. Prohibited Activities Activities that violate university rules, hostel regulations, or applicable laws are prohibited within the hostel premises."
+        },
+        "distance": 1.440596580505371
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": 23,
+    "category": "general",
+    "question": "What types of university information can CampusAI provide?",
+    "expected_answer": "CampusAI can provide information about university policies, academic regulations, examinations, placements, hostels, and other institutional information available in its knowledge base.",
+    "answer": "CampusAI is a university knowledge assistant designed to help students find information about university policies, academic regulations, examinations, placements, hostels, and other institutional information.",
+    "sources": [
+      "student_faq.txt",
+      "placement_policy.txt"
+    ],
+    "retrieved_chunks": [
+      {
+        "chunk": {
+          "chunk_id": "student_faq.txt_0",
+          "filename": "student_faq.txt",
+          "text": "ABC UNIVERSITY STUDENT FREQUENTLY ASKED QUESTIONS Q1. What is CampusAI? CampusAI is a university knowledge assistant designed to help students find information about university policies, academic regulations, examinations, placements, hostels, and other institutional information. Q2. What attendance is required for semester-end examinations? Students normally need at least 75% attendance in each registered course to be eligible for the semester-end examination. Q3. Can a student with 68% attendance apply for condonation? Students with attendance between 65% and 74% may apply for attendance condonation, subject to approval and applicable university rules. Q4. Can a student with 60% attendance receive attendance condonation? Students"
+        },
+        "distance": 0.7074096202850342
+      },
+      {
+        "chunk": {
+          "chunk_id": "placement_policy.txt_0",
+          "filename": "placement_policy.txt",
+          "text": "ABC UNIVERSITY PLACEMENT POLICY 1. Placement Registration Students interested in campus placements must register with the university placement cell within the announced registration period. 2. Placement Eligibility Eligibility requirements may vary by recruiting company. Students must satisfy the academic, attendance, and other eligibility criteria specified for the particular recruitment opportunity. 3. Academic Performance Some companies may specify minimum CGPA or percentage requirements. Students must meet the criteria specified in the particular job description. 4. Backlogs Companies may impose restrictions regarding active or historical academic backlogs. Students should check the eligibility criteria for each recruitment opportunity. 5. Placement Process The placement"
+        },
+        "distance": 1.2330654859542847
+      },
+      {
+        "chunk": {
+          "chunk_id": "student_faq.txt_2",
+          "filename": "student_faq.txt",
+          "text": "process. Q7. How is CGPA calculated? CGPA represents cumulative academic performance and is calculated using grade points and credits accumulated across the applicable semesters. Q8. What is the hostel entry deadline? The standard hostel entry deadline is 10:00 PM on regular days unless otherwise notified. Q9. How do students register for campus placements? Students interested in campus placements must register with the university placement cell during the announced registration period. Q10. Are placement eligibility criteria the same for every company? No. Eligibility requirements may vary by recruiting company. Students should check the criteria specified for each recruitment opportunity."
+        },
+        "distance": 1.292988896369934
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": 24,
+    "category": "general",
+    "question": "What should CampusAI do when information is not available in the knowledge base?",
+    "expected_answer": "CampusAI should state that the requested information is not available in the university knowledge base rather than inventing an answer.",
+    "answer": "CampusAI will answer the question as follows based on the university context provided: \n\nWhen information is not available in the knowledge base, CampusAI will say that it is not available in the university's knowledge base.",
+    "sources": [
+      "student_faq.txt",
+      "examination_rules.txt",
+      "hostel_rules.txt"
+    ],
+    "retrieved_chunks": [
+      {
+        "chunk": {
+          "chunk_id": "student_faq.txt_0",
+          "filename": "student_faq.txt",
+          "text": "ABC UNIVERSITY STUDENT FREQUENTLY ASKED QUESTIONS Q1. What is CampusAI? CampusAI is a university knowledge assistant designed to help students find information about university policies, academic regulations, examinations, placements, hostels, and other institutional information. Q2. What attendance is required for semester-end examinations? Students normally need at least 75% attendance in each registered course to be eligible for the semester-end examination. Q3. Can a student with 68% attendance apply for condonation? Students with attendance between 65% and 74% may apply for attendance condonation, subject to approval and applicable university rules. Q4. Can a student with 60% attendance receive attendance condonation? Students"
+        },
+        "distance": 0.9384196996688843
+      },
+      {
+        "chunk": {
+          "chunk_id": "examination_rules.txt_2",
+          "filename": "examination_rules.txt",
+          "text": "be treated as academic misconduct and may result in disciplinary action."
+        },
+        "distance": 1.3891267776489258
+      },
+      {
+        "chunk": {
+          "chunk_id": "hostel_rules.txt_1",
+          "filename": "hostel_rules.txt",
+          "text": "visiting hours specified by the hostel administration. Visitors must register at the designated reception or security desk. 5. Leave Students planning to stay away from the hostel overnight must submit a leave request through the designated hostel procedure. 6. Room Responsibility Students are responsible for maintaining cleanliness and taking care of furniture and other university property provided in their rooms. 7. Prohibited Activities Activities that violate university rules, hostel regulations, or applicable laws are prohibited within the hostel premises."
+        },
+        "distance": 1.4432767629623413
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": 25,
+    "category": "general",
+    "question": "Why does CampusAI use a university knowledge base?",
+    "expected_answer": "CampusAI uses a university knowledge base to provide responses grounded in the institution's policies, regulations, FAQs, and other relevant university information.",
+    "answer": "To provide students with relevant and accurate information about university policies, academic regulations, examinations, placements, hostels, and other institutional information.",
+    "sources": [
+      "student_faq.txt",
+      "placement_policy.txt"
+    ],
+    "retrieved_chunks": [
+      {
+        "chunk": {
+          "chunk_id": "student_faq.txt_0",
+          "filename": "student_faq.txt",
+          "text": "ABC UNIVERSITY STUDENT FREQUENTLY ASKED QUESTIONS Q1. What is CampusAI? CampusAI is a university knowledge assistant designed to help students find information about university policies, academic regulations, examinations, placements, hostels, and other institutional information. Q2. What attendance is required for semester-end examinations? Students normally need at least 75% attendance in each registered course to be eligible for the semester-end examination. Q3. Can a student with 68% attendance apply for condonation? Students with attendance between 65% and 74% may apply for attendance condonation, subject to approval and applicable university rules. Q4. Can a student with 60% attendance receive attendance condonation? Students"
+        },
+        "distance": 0.8308423757553101
+      },
+      {
+        "chunk": {
+          "chunk_id": "placement_policy.txt_2",
+          "filename": "placement_policy.txt",
+          "text": "organization."
+        },
+        "distance": 1.393823504447937
+      },
+      {
+        "chunk": {
+          "chunk_id": "placement_policy.txt_0",
+          "filename": "placement_policy.txt",
+          "text": "ABC UNIVERSITY PLACEMENT POLICY 1. Placement Registration Students interested in campus placements must register with the university placement cell within the announced registration period. 2. Placement Eligibility Eligibility requirements may vary by recruiting company. Students must satisfy the academic, attendance, and other eligibility criteria specified for the particular recruitment opportunity. 3. Academic Performance Some companies may specify minimum CGPA or percentage requirements. Students must meet the criteria specified in the particular job description. 4. Backlogs Companies may impose restrictions regarding active or historical academic backlogs. Students should check the eligibility criteria for each recruitment opportunity. 5. Placement Process The placement"
+        },
+        "distance": 1.4979944229125977
+      }
+    ],
+    "error": null
+  }
+]
