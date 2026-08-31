@@ -1,0 +1,35 @@
+{
+  "codellama": {
+    "questions": 25,
+    "correct": 7,
+    "partially_correct": 12,
+    "incorrect": 6,
+    "accuracy_percent": 28.0,
+    "hallucination_rate_percent": 24.0,
+    "average_similarity": 0.6547,
+    "average_latency_seconds": 66.26,
+    "average_total_tokens": 306.76
+  },
+  "phi": {
+    "questions": 25,
+    "correct": 7,
+    "partially_correct": 12,
+    "incorrect": 6,
+    "accuracy_percent": 28.0,
+    "hallucination_rate_percent": 24.0,
+    "average_similarity": 0.6484,
+    "average_latency_seconds": 20.55,
+    "average_total_tokens": 322.52
+  },
+  "starcoder2_3b": {
+    "questions": 25,
+    "correct": 1,
+    "partially_correct": 11,
+    "incorrect": 13,
+    "accuracy_percent": 4.0,
+    "hallucination_rate_percent": 52.0,
+    "average_similarity": 0.4717,
+    "average_latency_seconds": 9.2,
+    "average_total_tokens": 124.6
+  }
+}

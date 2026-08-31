@@ -2,131 +2,156 @@
   {
     "id": 1,
     "category": "attendance",
-    "question": "What is the minimum attendance required to appear for the semester-end examination?"
+    "question": "What is the minimum attendance required to appear for the semester-end examination?",
+    "expected_answer": "Students must maintain a minimum attendance of 75% in each registered course to be eligible to appear for the semester-end examination."
   },
   {
     "id": 2,
     "category": "attendance",
-    "question": "Can a student with 68% attendance apply for attendance condonation?"
+    "question": "Can a student with 68% attendance apply for attendance condonation?",
+    "expected_answer": "Yes. Students whose attendance is between 65% and 74% may apply for attendance condonation, subject to approval by the academic department and applicable university rules."
   },
   {
     "id": 3,
     "category": "attendance",
-    "question": "Can a student with 60% attendance receive attendance condonation?"
+    "question": "Can a student with 60% attendance receive attendance condonation?",
+    "expected_answer": "No. Students with attendance below 65% are not eligible for attendance condonation."
   },
   {
     "id": 4,
     "category": "attendance",
-    "question": "Can medical leave affect the attendance requirement?"
+    "question": "Can medical leave affect the attendance requirement?",
+    "expected_answer": "Medical leave may be considered when supported by valid medical documentation."
   },
   {
     "id": 5,
     "category": "attendance",
-    "question": "Who approves attendance condonation applications?"
+    "question": "Who approves attendance condonation applications?",
+    "expected_answer": "Attendance condonation is subject to approval by the academic department and applicable university rules."
   },
 
   {
     "id": 6,
     "category": "examination",
-    "question": "Can students apply for examination revaluation?"
+    "question": "Can students apply for examination revaluation?",
+    "expected_answer": "Yes. Students may apply for revaluation of eligible theory examination papers within the specified application period."
   },
   {
     "id": 7,
     "category": "examination",
-    "question": "What happens if a student fails a course?"
+    "question": "What happens if a student fails a course?",
+    "expected_answer": "A student receiving an F grade may need to clear the course through a supplementary examination or another university-approved process."
   },
   {
     "id": 8,
     "category": "examination",
-    "question": "What are the eligibility requirements for semester-end examinations?"
+    "question": "What are the eligibility requirements for semester-end examinations?",
+    "expected_answer": "Students must normally maintain at least 75% attendance in each registered course to be eligible for the semester-end examination."
   },
   {
     "id": 9,
     "category": "examination",
-    "question": "When can a student apply for examination revaluation?"
+    "question": "When can a student apply for examination revaluation?",
+    "expected_answer": "Students may apply for revaluation of eligible theory examination papers within the specified application period."
   },
 
   {
     "id": 10,
     "category": "hostel",
-    "question": "What are the hostel entry timings?"
+    "question": "What are the hostel entry timings?",
+    "expected_answer": "Students must follow the hostel entry timings specified in the university hostel rules."
   },
   {
     "id": 11,
     "category": "hostel",
-    "question": "What should a student do if they need to enter the hostel after the allowed entry time?"
+    "question": "What should a student do if they need to enter the hostel after the allowed entry time?",
+    "expected_answer": "Students entering the hostel after the allowed entry time must follow the late-entry procedure specified in the hostel rules and obtain the required permission."
   },
   {
     "id": 12,
     "category": "hostel",
-    "question": "Are visitors allowed inside the university hostel?"
+    "question": "Are visitors allowed inside the university hostel?",
+    "expected_answer": "Visitors are permitted only according to the visitor rules and timings specified by the university hostel regulations."
   },
   {
     "id": 13,
     "category": "hostel",
-    "question": "What are the rules for hostel leave?"
+    "question": "What are the rules for hostel leave?",
+    "expected_answer": "Students must follow the hostel leave procedure and obtain the required permission according to the university hostel rules."
   },
 
   {
     "id": 14,
     "category": "placement",
-    "question": "Who is eligible to participate in campus placement activities?"
+    "question": "Who is eligible to participate in campus placement activities?",
+    "expected_answer": "Students who satisfy the eligibility criteria specified in the university placement policy may participate in campus placement activities."
   },
   {
     "id": 15,
     "category": "placement",
-    "question": "Can students with an active backlog participate in placements?"
+    "question": "Can students with an active backlog participate in placements?",
+    "expected_answer": "Students with active backlogs are subject to the eligibility conditions specified by the placement policy and individual recruiters."
   },
   {
     "id": 16,
     "category": "placement",
-    "question": "What documents are required for placement registration?"
+    "question": "What documents are required for placement registration?",
+    "expected_answer": "Students must provide the documents required by the placement cell during placement registration, as specified in the placement policy."
   },
   {
     "id": 17,
     "category": "placement",
-    "question": "Can a student apply for multiple placement opportunities?"
+    "question": "Can a student apply for multiple placement opportunities?",
+    "expected_answer": "Students may apply for placement opportunities according to the rules and eligibility conditions specified by the placement policy."
   },
 
   {
     "id": 18,
     "category": "academic",
-    "question": "How is CGPA calculated?"
+    "question": "How is CGPA calculated?",
+    "expected_answer": "CGPA represents cumulative academic performance and is calculated using grade points and credits accumulated."
   },
   {
     "id": 19,
     "category": "academic",
-    "question": "What does an F grade mean?"
+    "question": "What does an F grade mean?",
+    "expected_answer": "An F grade indicates that the student has failed the course and may need to clear it through a supplementary examination or another university-approved process."
   },
   {
     "id": 20,
     "category": "academic",
-    "question": "How are grade points related to credits?"
+    "question": "How are grade points related to credits?",
+    "expected_answer": "Grade points and credits are used together in calculating cumulative academic performance and CGPA."
   },
   {
     "id": 21,
     "category": "academic",
-    "question": "What should a student do after failing a course?"
+    "question": "What should a student do after failing a course?",
+    "expected_answer": "A student who fails a course may need to clear it through a supplementary examination or another university-approved process."
   },
 
   {
     "id": 22,
     "category": "general",
-    "question": "What is CampusAI?"
+    "question": "What is CampusAI?",
+    "expected_answer": "CampusAI is a university knowledge assistant designed to help students find information about university policies, academic regulations, examinations, placements, hostels, and other institutional information."
   },
   {
     "id": 23,
     "category": "general",
-    "question": "What types of university information can CampusAI provide?"
+    "question": "What types of university information can CampusAI provide?",
+    "expected_answer": "CampusAI can provide information about university policies, academic regulations, examinations, placements, hostels, and other institutional information available in its knowledge base."
   },
   {
     "id": 24,
     "category": "general",
-    "question": "What should CampusAI do when information is not available in the knowledge base?"
+    "question": "What should CampusAI do when information is not available in the knowledge base?",
+    "expected_answer": "CampusAI should state that the requested information is not available in the university knowledge base rather than inventing an answer."
   },
   {
     "id": 25,
     "category": "general",
-    "question": "Why does CampusAI use a university knowledge base?"
+    "question": "Why does CampusAI use a university knowledge base?",
+    "expected_answer": "CampusAI uses a university knowledge base to provide responses grounded in the institution's policies, regulations, FAQs, and other relevant university information."
   }
 ]
