@@ -1,0 +1,12 @@
+STEP 1  → Understand current retrieval/ingestion code
+STEP 2  → Create repository/code knowledge source
+STEP 3  → Index .py, Dockerfile, docker-compose.yml, etc.
+STEP 4  → Store useful code metadata
+STEP 5  → Build a repository FAISS index
+STEP 6  → Make Retrieval Service search both knowledge + code
+STEP 7  → Improve prompt so LLM answers from retrieved code
+STEP 8  → Test repository questions
+STEP 9  → Create the new 25-question Week 4 dataset
+STEP 10 → Run all 3 models on exactly the same questions
+STEP 11 → Analyze accuracy/hallucination/retrieval/latency
+STEP 12 → Update Streamlit dashboard
