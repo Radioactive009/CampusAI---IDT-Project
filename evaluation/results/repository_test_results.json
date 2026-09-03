@@ -2,113 +2,136 @@
   {
     "id": 1,
     "question": "What component receives the user's question first, and what services does it communicate with afterward?",
-    "status_code": 200,
-    "answer": "The CampusAI is an university knowledge assistant designed to help students find information about university policies, academic regulations, examinations, placements, hostels, and other institutional information. The component that receives the user's question first is CampusAI. Afterward, it communicates with the following: \n- Source: student_faq.txt to answer questions related to attendance requirements for semester-end examinations; \n- placement_policy.txt to answer questions about the eligibility criteria for each recruitment opportunity and to provide information on internship opportunities.",
-    "sources": [
-      "placement_policy.txt",
-      "student_faq.txt"
-    ],
-    "error": null
+    "status_code": 503,
+    "answer": "",
+    "sources": [],
+    "retrieved_chunks": [],
+    "error": "Unable to process request."
   },
   {
     "id": 2,
     "question": "How does the application service communicate with the retrieval service?",
-    "status_code": 200,
-    "answer": "The CampusAI communication with the retrieval service is done through the use of natural language processing (NLP) and machine learning algorithms. These technologies enable the CampusAI to understand the user's question and retrieve relevant information from the university knowledge base. The retrieval service provides the necessary data for the CampusAI to provide accurate and informative responses to the user's query.",
-    "sources": [
-      "placement_policy.txt",
-      "student_faq.txt"
-    ],
-    "error": null
+    "status_code": 503,
+    "answer": "",
+    "sources": [],
+    "retrieved_chunks": [],
+    "error": "Unable to process request."
   },
   {
     "id": 3,
     "question": "How does the application service communicate with the LLM service?",
-    "status_code": 200,
-    "answer": "CampusAI communicates with the LLM (Low Latency Middleware) service through a REST API. The LLM service is responsible for handling requests from CampusAI and ensuring that they are executed quickly and efficiently. When a user asks a question or sends a message to CampusAI, the request is routed to the LLM service, which processes it and returns the response in a timely manner.",
-    "sources": [
-      "placement_policy.txt",
-      "student_faq.txt"
-    ],
-    "error": null
+    "status_code": 503,
+    "answer": "",
+    "sources": [],
+    "retrieved_chunks": [],
+    "error": "Unable to process request."
   },
   {
     "id": 4,
     "question": "What is the complete flow of a user question from the application API to the final LLM response?",
-    "status_code": 200,
-    "answer": "The complete flow of a user question from the application API to the final LLM response can be broken down into several steps:\n\n1. The user submits their question through the application API.\n2. The API processes the question and extracts relevant information from the university's knowledge base.\n3. The API uses natural language processing techniques to analyze the question and identify the most likely answer.\n4. If the API is unable to find a suitable answer in the university's knowledge base, it may use machine learning algorithms to generate an answer based on patterns it has learned from previous questions and answers.\n5. The final LLM response is sent back to the user through the application API.\n6. The user can then view and interact with the generated answer, if appropriate.",
-    "sources": [
-      "student_faq.txt",
-      "examination_rules.txt"
-    ],
-    "error": null
+    "status_code": 503,
+    "answer": "",
+    "sources": [],
+    "retrieved_chunks": [],
+    "error": "Unable to process request."
   },
   {
     "id": 5,
     "question": "Which component is responsible for communicating with Ollama?",
-    "status_code": 200,
-    "answer": "The answer to your question is not available in the provided context. It would be best to consult the university's knowledge base or contact their customer service department for assistance with this query.",
-    "sources": [
-      "placement_policy.txt",
-      "student_faq.txt",
-      "hostel_rules.txt"
-    ],
-    "error": null
+    "status_code": 503,
+    "answer": "",
+    "sources": [],
+    "retrieved_chunks": [],
+    "error": "Unable to process request."
   },
   {
     "id": 6,
     "question": "Which component performs vector similarity search?",
-    "status_code": 200,
-    "answer": "Vector similarity search is performed by the Indexing Engine in CampusAI, an assistant for ABC University.",
-    "sources": [
-      "academic_regulations.txt",
-      "placement_policy.txt"
-    ],
-    "error": null
+    "status_code": 503,
+    "answer": "",
+    "sources": [],
+    "retrieved_chunks": [],
+    "error": "Unable to process request."
   },
   {
     "id": 7,
     "question": "How does the retrieval service obtain relevant university information?",
-    "status_code": 200,
-    "answer": "CampusAI utilizes a knowledge base of various university policies, regulations, and procedures to provide accurate and up-to-date information to students. The knowledge base is constantly updated with new information and changes to existing policies and procedures, ensuring that the information provided by CampusAI is current and relevant to students' needs.",
-    "sources": [
-      "student_faq.txt",
-      "placement_policy.txt"
-    ],
-    "error": null
+    "status_code": 503,
+    "answer": "",
+    "sources": [],
+    "retrieved_chunks": [],
+    "error": "Unable to process request."
   },
   {
     "id": 8,
     "question": "What happens if the LLM service is unavailable?",
-    "status_code": 200,
-    "answer": "\nThe answer to your question is not available in the provided context.",
-    "sources": [
-      "examination_rules.txt",
-      "attendance_policy.txt",
-      "hostel_rules.txt"
-    ],
-    "error": null
+    "status_code": 503,
+    "answer": "",
+    "sources": [],
+    "retrieved_chunks": [],
+    "error": "Unable to process request."
   },
   {
     "id": 9,
     "question": "What happens if the retrieval service is unavailable?",
-    "status_code": 200,
-    "answer": "If the retrieval service is unavailable, students will not be able to access their examination results. This means that they cannot check their result status, and they may not be eligible for revaluation or other examination opportunities until the service is available again. It is important for students to ensure that they have a backup plan in place in case the retrieval service is unavailable, such as having their results sent to them through alternative means or using an alternative platform for accessing results.",
-    "sources": [
-      "examination_rules.txt",
-      "attendance_policy.txt"
-    ],
-    "error": null
+    "status_code": 503,
+    "answer": "",
+    "sources": [],
+    "retrieved_chunks": [],
+    "error": "Unable to process request."
   },
   {
     "id": 10,
     "question": "Which Docker services are required for the complete CampusAI application?",
-    "status_code": 200,
-    "answer": "The CampusAI application requires the following Docker services:\n\n1. NLTK (Natural Language Toolkit): This is a Python library used for text processing and natural language processing tasks. It is required for training the CampusAI model on text data.\n2. Keras: This is a deep learning library used for building and training neural networks. It is required for training the CampusAI model on image data.\n3. TensorFlow: This is an open-source machine learning framework used for developing and training machine learning models. It is required for training the CampusAI model on image data.\n4. Flask: This is a web application framework used for building web applications. It is required for deploying the CampusAI model as a web application.\n5. MongoDB: This is a NoSQL database used for storing and retrieving data. It is required for storing and retrieving the university's knowledge base and other data.\n6. Docker: This is a containerization platform used for deploying and managing applications. It is required for packaging and deploying the CampusAI application as a container.",
-    "sources": [
-      "student_faq.txt",
-      "placement_policy.txt"
-    ],
-    "error": null
+    "status_code": 503,
+    "answer": "",
+    "sources": [],
+    "retrieved_chunks": [],
+    "error": "Unable to process request."
+  },
+  {
+    "id": 11,
+    "question": "Why is host.docker.internal used in the CampusAI Docker architecture?",
+    "status_code": 503,
+    "answer": "",
+    "sources": [],
+    "retrieved_chunks": [],
+    "error": "Unable to process request."
+  },
+  {
+    "id": 12,
+    "question": "What does the process_question function do?",
+    "status_code": 503,
+    "answer": "",
+    "sources": [],
+    "retrieved_chunks": [],
+    "error": "Unable to process request."
+  },
+  {
+    "id": 13,
+    "question": "What does retrieve_relevant_chunks do?",
+    "status_code": 503,
+    "answer": "",
+    "sources": [],
+    "retrieved_chunks": [],
+    "error": "Unable to process request."
+  },
+  {
+    "id": 14,
+    "question": "What does create_vector_store do?",
+    "status_code": 503,
+    "answer": "",
+    "sources": [],
+    "retrieved_chunks": [],
+    "error": "Unable to process request."
+  },
+  {
+    "id": 15,
+    "question": "What is the purpose of chunk_text in the CampusAI pipeline?",
+    "status_code": 503,
+    "answer": "",
+    "sources": [],
+    "retrieved_chunks": [],
+    "error": "Unable to process request."
   }
 ]

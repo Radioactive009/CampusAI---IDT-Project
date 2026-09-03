@@ -9,6 +9,8 @@ EXCLUDED_DIRS = {
     "__pycache__",
     ".git",
     "vector_store",
+    "results",
+    "data",
 }
 
 # Repository file types we want the RAG to understand

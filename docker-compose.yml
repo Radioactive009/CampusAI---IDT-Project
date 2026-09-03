@@ -18,6 +18,8 @@ services:
     container_name: campusai-retrieval
     ports:
       - "8002:8002"
+    volumes:
+      - ./data:/app/data
 
   llm-service:
     build:
